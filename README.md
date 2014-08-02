@@ -17,7 +17,9 @@ Ignore all of the "incompatible" mod errors, they lie.
 
 When you first log in there are a few settings that you have to adjust. First, in the very center of the screen there is a box that has the title "TAC Life Support Settings." In this window, un-tick the button that says allow respawns, then close that window. Note: It will probably accidentally send you to the research center, just back out to the space center.
 
-The second thing to do is to go to the upper left of your screen and click dismiss on the message saying KSP interstellar tree has an update. This will pop up every now and then, just dismiss it. I am not sure why it keeps doing that.
+The second thing is to select a tech tree from the tech tree selector. Select "KSP Interstellar" from the drop down list, then click load.
+
+The next thing to do is to go to the upper left of your screen to the message that says KSP Interstellar tech tree has an update. If this message does not pop up, dont worry about it. If it does, click install update, then close KSP and relaunch it.
 
 That should just about have you set. Have fun! Below are the server rules:
 
