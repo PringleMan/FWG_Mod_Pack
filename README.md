@@ -1,11 +1,16 @@
 FWG_Mod_Pack
 ============
 
-This pack contains everything needed to connect to the server. Just download the zip, and merge the contained GameData
-with the GameData contained in your KSP folder.
+Install
 
-The main mod pack requires a clean install, but subsequent mod updates are delivered in a "patch" pack which must be extracted
-on top of everything already in the mod pack.
+There are three ways to install this pack. 
+The first method is to just download the whole pack and put its contents into game data. This is not recommended as from time to time mods will be removed and updated, and it will be up to you with little / no support if you mess it up.
+
+The second method is to utilize SVN checkout to update the game data folder. Using a program like TortoiseSVN, right click on the GameData folder in your KSP folder and select SVN Checkout, the enter "https://github.com/PringleMan/GameData/trunk" (minus the quotes) as the repository source. Whenever there is an update to the server, right click on game data and select SVN update, it should automatically fix everything.
+
+The third and final method is to use Github and clone the repo to the KSP folder. This is easiest done by installing the Github windows client, then move everything in the KSP folder to a temporary location. Next, on the mod pack's front page select the "clone in desktop" option on the lower right hand side. This will open the client and prompt you to select a folder. Select the KSP folder, then hit ok. Then, move everything from the temp folder you had made (now containing all of original KSP) back in to the KSP folder. Whenever there is an update, just launch the git client and tell it to sync. It will automatically update everything.
+
+Either method two OR method three should be used, but not both. Method two is a little less involved, but method 3 gives you immediate and easy access to the entire version history with notes for the mod pack.
 
 The pack is of course made for the latest version of KSP, .24.2, and will not work on older versions.
 
