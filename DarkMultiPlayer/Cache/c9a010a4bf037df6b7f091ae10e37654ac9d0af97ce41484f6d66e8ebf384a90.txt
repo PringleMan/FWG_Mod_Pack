@@ -1,0 +1,75 @@
+pid = e17d8c6588954f02ac566b8f3d59e764
+name = Ast. UZW-147
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 66861173.751039
+lct = 66861173.751039
+root = 0
+lat = 0.427975642877353
+lon = -360.423647289318
+alt = 14576607172.4261
+hgt = -1
+nrm = 0,1,0
+rot = 0.7915142,0.2273074,-0.07374949,0.5624924
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14761460085.4047
+	ECC = 0.0813681145432902
+	INC = 0.447626952909094
+	LPE = 171.268973857234
+	LAN = 204.219833770577
+	MNA = 0.141427671442577
+	EPH = 69668730.782289
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 16553927
+	mid = 16553927
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 66861173.751039
+	lifetime = 496872.303771973
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

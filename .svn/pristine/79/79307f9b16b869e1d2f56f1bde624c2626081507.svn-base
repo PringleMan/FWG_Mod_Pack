@@ -1,0 +1,16 @@
+//VTS Container Bay fixes
+//
+//Attempt to fix the VTS bays so that they work with/like normal KAS racks
+//
+//Author: PringleMan
+
+@PART[KAS_ContainerBay1]
+{
+	@MODULE[KASModulePartBay]
+	{
+		@BAY
+		{
+			type = containervts
+		}
+	}
+}

@@ -1,0 +1,75 @@
+pid = 10454c33c11c43dbbcea40c1544f1662
+name = Ast. VAY-122
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 61878412.7435996
+lct = 61878412.7435996
+root = 0
+lat = -1.17544313844709
+lon = 21.9442607896654
+alt = 18393258993.9903
+hgt = -1
+nrm = 0,1,0
+rot = 0.5734721,-0.2644013,-0.1665175,0.7572937
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 16779591392.2726
+	ECC = 0.188926101364665
+	INC = 1.48699479090451
+	LPE = 6.82280524497814
+	LAN = 235.06383127978
+	MNA = 6.2198127356102
+	EPH = 65869392.4310996
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 701859448
+	mid = 701859448
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 61878412.7435996
+	lifetime = 183486.126708984
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

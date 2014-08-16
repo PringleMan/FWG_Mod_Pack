@@ -1,0 +1,75 @@
+pid = a470f83a67d146d2a9fd9243a8bdba4f
+name = Ast. UYC-728
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 66861057.3977607
+lct = 66861057.3977607
+root = 0
+lat = 0.00876444025788301
+lon = -359.88420306461
+alt = 14221997294.9096
+hgt = -1
+nrm = 0,1,0
+rot = -0.5172305,0.1051401,0.6451067,0.5524992
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14360287134.9819
+	ECC = 0.0588564662553319
+	INC = 0.374071519837801
+	LPE = 280.370387446864
+	LAN = 99.0061650511088
+	MNA = 5.81584891884188
+	EPH = 68755006.8728583
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1080110423
+	mid = 1080110423
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 66861057.3977607
+	lifetime = 886025.994873047
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

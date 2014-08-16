@@ -69,4 +69,5 @@
     <string name="manualOverrideShielding">False</string>
     <int name="unitMode">0</int>
     <int name="velMode">0</int>
+    <string name="useBlizzyToolbar">False</string>
 </config>

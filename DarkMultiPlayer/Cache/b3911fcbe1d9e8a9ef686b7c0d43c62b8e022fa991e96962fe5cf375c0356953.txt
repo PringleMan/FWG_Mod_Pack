@@ -1,0 +1,75 @@
+pid = 0e9e3435a97e4d9798464aac3dabcf63
+name = Ast. ZJI-794
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 66861153.5845724
+lct = 66861153.5845724
+root = 0
+lat = 0.929974297998519
+lon = -352.200971759892
+alt = 15090565976.8449
+hgt = -1
+nrm = 0,1,0
+rot = 0.4023544,0.1525431,-0.2542041,0.8661534
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14534398151.5772
+	ECC = 0.0684031057297499
+	INC = 2.33556797237585
+	LPE = 170.980190759866
+	LAN = 261.949088469279
+	MNA = 0.177058355454322
+	EPH = 71189920.0152364
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1205057588
+	mid = 1205057588
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 66861153.5845724
+	lifetime = 735524.807739258
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

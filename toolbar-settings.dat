@@ -1,0 +1,34 @@
+toolbars
+{
+	kspVersions = 0.24.0,0.24.1,0.24.2
+	SPACECENTER
+	{
+		toolbar_291201380
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
+		}
+	}
+	MAINMENU
+	{
+		toolbar_291201380
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
+		}
+	}
+}

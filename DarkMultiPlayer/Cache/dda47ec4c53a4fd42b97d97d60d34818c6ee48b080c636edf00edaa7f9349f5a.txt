@@ -1,0 +1,75 @@
+pid = 176f9f108bc044f49f0cca40cef6623b
+name = Ast. NKK-235
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 66861062.3977615
+lct = 66861062.3977615
+root = 0
+lat = 1.06678807046989
+lon = -361.36008014812
+alt = 14235942300.7279
+hgt = -1
+nrm = 0,1,0
+rot = 0.06102863,-0.696283,0.271279,0.6617199
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14775982814.307
+	ECC = 0.0832983660695593
+	INC = 1.16893728690818
+	LPE = 195.753304462154
+	LAN = 162.058019992078
+	MNA = 6.00068706186058
+	EPH = 68485016.487117
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1377386272
+	mid = 1377386272
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 66861062.3977615
+	lifetime = 1168483.66699219
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

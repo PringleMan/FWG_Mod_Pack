@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <bool name="requireLineOfSight">0</bool>
+</config>
