@@ -1,0 +1,75 @@
+pid = 6926ec834b934c898b748206dded6e95
+name = Ast. JMQ-991
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67072847.9351661
+lct = 67072847.9351661
+root = 0
+lat = -1.4638800591497
+lon = 188.932365237743
+alt = 13647155559.629
+hgt = -1
+nrm = 0,1,0
+rot = 0.1957664,-0.5294141,0.81262,0.1450683
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14207343607.0578
+	ECC = 0.0425646062149415
+	INC = 1.54685132339823
+	LPE = 351.40539349809
+	LAN = 354.057873906747
+	MNA = 0.166997296023291
+	EPH = 68925244.8650977
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1879557705
+	mid = 1879557705
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67072847.9351661
+	lifetime = 667721.543884277
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

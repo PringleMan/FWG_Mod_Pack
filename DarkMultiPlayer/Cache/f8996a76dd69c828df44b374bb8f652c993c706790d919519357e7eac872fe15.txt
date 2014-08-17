@@ -1,0 +1,75 @@
+pid = 5b97d58aabdb4ff0a42a7411d81c32da
+name = Ast. EUE-134
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67072832.7612043
+lct = 67072832.7612043
+root = 0
+lat = 1.61867302390182
+lon = 192.395474448325
+alt = 14294274820.4995
+hgt = -1
+nrm = 0,1,0
+rot = 0.2612387,-0.294277,-0.5102262,0.7647383
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14364079042.1786
+	ECC = 0.0564832357043654
+	INC = 1.61871615786684
+	LPE = 196.381038735251
+	LAN = 196.794870474142
+	MNA = 5.97815171886771
+	EPH = 69377564.2309308
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1474996634
+	mid = 1474996634
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67072832.7612043
+	lifetime = 1213704.29992676
+	refTime = 1728000
+	size = 1
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

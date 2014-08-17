@@ -5,6 +5,33 @@ toolbars
 	{
 		toolbar_291201380
 		{
+			x = 1104
+			y = -3
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = AntennaRange.ARConfiguration,ResourceManifest.ResourceManifest,StageRecovery.MainButton
+		}
+	}
+	MAINMENU
+	{
+		toolbar_291201380
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
+		}
+		toolbar_54556368
+		{
 			x = 300
 			y = 300
 			width = 250
@@ -16,9 +43,54 @@ toolbars
 			visibleButtons = 
 		}
 	}
-	MAINMENU
+	TRACKSTATION
 	{
-		toolbar_291201380
+		toolbar_227137257
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
+		}
+	}
+	FLIGHT
+	{
+		toolbar_2011298422
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
+		}
+	}
+	FLIGHTMAP
+	{
+		toolbar_613471907
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
+		}
+	}
+	EDITOR
+	{
+		toolbar_54556368
 		{
 			x = 300
 			y = 300

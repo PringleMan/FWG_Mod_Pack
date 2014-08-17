@@ -1,0 +1,75 @@
+pid = a30c809973bd4d4f95406e5ea0c11802
+name = Ast. QWD-903
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67072857.96774
+lct = 67072857.96774
+root = 0
+lat = 0.93505707697648
+lon = 190.368062715038
+alt = 14340532433.8641
+hgt = -1
+nrm = 0,1,0
+rot = -0.2432851,-0.1591997,0.5236012,0.800818
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14902256648.5536
+	ECC = 0.087003736489833
+	INC = 1.03264770237544
+	LPE = 196.629950846005
+	LAN = 169.236595084229
+	MNA = 6.26283376168448
+	EPH = 69143171.627408
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 102424787
+	mid = 102424787
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67072857.96774
+	lifetime = 1098027.90527344
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
