@@ -1,0 +1,75 @@
+pid = 529440e2a783489aaf1cc75e09119225
+name = Ast. SEA-329
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67073820.6878861
+lct = 67073820.6878861
+root = 0
+lat = 0.0561585114879193
+lon = 204.341573319531
+alt = 16656103994.1195
+hgt = -1
+nrm = 0,1,0
+rot = 0.8271204,-0.09489784,0.3235439,0.4496506
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15670060199.1729
+	ECC = 0.134239028034424
+	INC = 0.326685329096465
+	LPE = 142.253118161334
+	LAN = 289.293712658822
+	MNA = 0.174524430603522
+	EPH = 71190254.7943314
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 2086099514
+	mid = 2086099514
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67073820.6878861
+	lifetime = 639453.158569336
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

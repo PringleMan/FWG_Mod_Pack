@@ -1,0 +1,75 @@
+pid = af2412514f8f4e4b9fb769daa930b177
+name = Ast. TZT-995
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67073873.3407824
+lct = 67073873.3407824
+root = 0
+lat = 1.68753313024643
+lon = 200.574587203807
+alt = 16205713158.9062
+hgt = -1
+nrm = 0,1,0
+rot = -0.0282497,0.3014727,0.3620851,0.8815954
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15553659012.731
+	ECC = 0.126648587452951
+	INC = 2.10506299484782
+	LPE = 177.191937523901
+	LAN = 242.193014170432
+	MNA = 0.0296264510592117
+	EPH = 70604118.0673449
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1628801944
+	mid = 1628801944
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67073873.3407824
+	lifetime = 1154230.55419922
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

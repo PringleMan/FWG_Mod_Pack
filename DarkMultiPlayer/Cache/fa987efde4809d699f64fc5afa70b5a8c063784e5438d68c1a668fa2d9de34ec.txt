@@ -1,0 +1,75 @@
+pid = 0ec1c8ec9eaa49f2a817e975ff92039d
+name = Ast. JBM-051
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67073844.8878901
+lct = 67073844.8878901
+root = 0
+lat = -1.11079174990347
+lon = 210.1352899101
+alt = 17024245115.5516
+hgt = -1
+nrm = 0,1,0
+rot = -0.1140995,0.2712213,-0.8437653,0.4488659
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15789280718.9603
+	ECC = 0.139956363495291
+	INC = 1.28051606140188
+	LPE = 18.4495832052895
+	LAN = 64.8457692404625
+	MNA = 6.04412408965923
+	EPH = 70688712.4660151
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1173538789
+	mid = 1173538789
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67073844.8878901
+	lifetime = 278213.358306885
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

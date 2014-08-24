@@ -1,0 +1,75 @@
+pid = 27f53ff6568b43d2989ed96e3b2841c1
+name = Ast. KMW-155
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67073911.7607887
+lct = 67073911.7607887
+root = 0
+lat = 0.285005968806354
+lon = 233.120878889356
+alt = 19295595543.2267
+hgt = -1
+nrm = 0,1,0
+rot = -0.5030285,-0.006589155,0.6223426,0.5996737
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 16771554418.7062
+	ECC = 0.189033748038602
+	INC = 0.498743785639993
+	LPE = 191.142889675063
+	LAN = 293.196788119898
+	MNA = 6.224273565714
+	EPH = 72078196.636277
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 38986794
+	mid = 38986794
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67073911.7607887
+	lifetime = 556938.034057617
+	refTime = 1728000
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

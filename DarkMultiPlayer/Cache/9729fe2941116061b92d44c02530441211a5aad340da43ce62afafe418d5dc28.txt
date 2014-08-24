@@ -1,0 +1,75 @@
+pid = c62663b8c6f24597952362c08015fdae
+name = Ast. SQX-605
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67073835.2878885
+lct = 67073835.2878885
+root = 0
+lat = 0.375892269593629
+lon = 196.10411663781
+alt = 15261276502.7423
+hgt = -1
+nrm = 0,1,0
+rot = 0.4618364,-0.8735127,-0.006394817,0.1537585
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14774997802.2607
+	ECC = 0.0849436766252783
+	INC = 0.81168160243715
+	LPE = 157.982325132146
+	LAN = 263.380903489491
+	MNA = 0.329724451641113
+	EPH = 71171949.4724588
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1336514649
+	mid = 1336514649
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67073835.2878885
+	lifetime = 1305935.81542969
+	refTime = 1728000
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
