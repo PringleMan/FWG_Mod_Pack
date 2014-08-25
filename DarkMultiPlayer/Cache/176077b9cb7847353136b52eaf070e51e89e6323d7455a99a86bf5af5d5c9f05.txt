@@ -1,0 +1,75 @@
+pid = 303e6ea9a32f4cbd9184c48db69ed279
+name = Ast. EIS-197
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67682954.8474655
+lct = 67682954.8474655
+root = 0
+lat = 0.373044047484224
+lon = -297.588729286473
+alt = 14204410098.7002
+hgt = -1
+nrm = 0,1,0
+rot = -0.3497723,0.2501305,-0.6593673,0.616708
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14415499784.7177
+	ECC = 0.0742092840305669
+	INC = 0.506832382231682
+	LPE = 144.344640872412
+	LAN = 257.480033627178
+	MNA = 0.61629849747495
+	EPH = 71136089.393364
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1829870421
+	mid = 1829870421
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67682954.8474655
+	lifetime = 841901.742553711
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

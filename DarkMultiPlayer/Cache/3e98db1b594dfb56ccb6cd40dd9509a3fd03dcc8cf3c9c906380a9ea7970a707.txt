@@ -1,0 +1,75 @@
+pid = 057e562eaa1e4c4eb7026ec3dc2cbc6c
+name = Ast. GPR-075
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67770106.4690291
+lct = 67770106.4690291
+root = 0
+lat = -1.63222689399445
+lon = -362.542042653615
+alt = 14555622180.1518
+hgt = -1
+nrm = 0,1,0
+rot = -0.4899438,-0.0771611,-0.6336024,0.5937586
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15102946906.3485
+	ECC = 0.100324553364236
+	INC = 1.72064489139681
+	LPE = 13.2842912606874
+	LAN = 24.0939098663052
+	MNA = 6.14774181089275
+	EPH = 69736524.1814314
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 537273927
+	mid = 537273927
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67770106.4690291
+	lifetime = 1248442.49267578
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

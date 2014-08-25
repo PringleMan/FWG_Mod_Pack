@@ -42,6 +42,30 @@ toolbars
 			buttonOrder = 
 			visibleButtons = 
 		}
+		toolbar_523221639
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
+		}
+		toolbar_2011298422
+		{
+			x = 965
+			y = 8
+			width = 182
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = MechJeb2.Orbit_Info,ResourceManifest.ResourceManifest,SCANsat.UIMenu,Tac.LS,KolonyTools.OrbLogButton
+		}
 	}
 	TRACKSTATION
 	{
@@ -62,15 +86,15 @@ toolbars
 	{
 		toolbar_2011298422
 		{
-			x = 300
-			y = 300
-			width = 250
+			x = 965
+			y = 8
+			width = 182
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = 
+			visibleButtons = MechJeb2.Orbit_Info,ResourceManifest.ResourceManifest,SCANsat.UIMenu,Tac.LS,KolonyTools.OrbLogButton
 		}
 	}
 	FLIGHTMAP
@@ -91,6 +115,21 @@ toolbars
 	EDITOR
 	{
 		toolbar_54556368
+		{
+			x = 300
+			y = 300
+			width = 250
+			height = 38
+			autoHide = False
+			drawBorder = True
+			useKSPSkin = False
+			buttonOrder = 
+			visibleButtons = 
+		}
+	}
+	SPH
+	{
+		toolbar_523221639
 		{
 			x = 300
 			y = 300

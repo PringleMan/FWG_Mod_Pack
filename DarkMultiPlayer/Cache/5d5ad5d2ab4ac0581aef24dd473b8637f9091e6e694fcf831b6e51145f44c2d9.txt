@@ -1,0 +1,75 @@
+pid = 88376d8157dd45e1a04c7759072e9569
+name = Ast. UHQ-768
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67682953.6274658
+lct = 67682953.6274658
+root = 0
+lat = 0.878440145675368
+lon = -296.2256867936
+alt = 13569408438.6535
+hgt = -1
+nrm = 0,1,0
+rot = 0.1318942,-0.3689632,-0.9198801,0.01704882
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13964698707.0324
+	ECC = 0.0311262659974601
+	INC = 0.880634024808913
+	LPE = 167.837693926522
+	LAN = 212.190176650337
+	MNA = 0.270586270634091
+	EPH = 69967820.5525146
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1689661000
+	mid = 1689661000
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67682953.6274658
+	lifetime = 1567836.14501953
+	refTime = 1728000
+	size = 1
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

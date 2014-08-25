@@ -1,0 +1,75 @@
+pid = 407668b714234ea7922eb962a131fe50
+name = Ast. MTJ-440
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67682994.7651884
+lct = 67682994.7651884
+root = 0
+lat = -0.27810953929331
+lon = -289.186111972091
+alt = 14116959963.7269
+hgt = -1
+nrm = 0,1,0
+rot = 0.5237224,-0.206637,0.2080336,0.7998363
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14016110141.4947
+	ECC = 0.0287933009356195
+	INC = 0.544862719578693
+	LPE = 5.31923630068525
+	LAN = 102.597423867298
+	MNA = 5.80178878447262
+	EPH = 71042640.1631376
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1743539766
+	mid = 1743539766
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67682994.7651884
+	lifetime = 1418356.76879883
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

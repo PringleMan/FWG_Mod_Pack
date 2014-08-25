@@ -1,0 +1,75 @@
+pid = f92479f06e1a48d59c142bae5c9c644f
+name = Ast. HBY-416
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67683004.8927677
+lct = 67683004.8927677
+root = 0
+lat = -0.0845686912468471
+lon = -288.188395675718
+alt = 14084967016.0366
+hgt = -1
+nrm = 0,1,0
+rot = 0.5302576,-0.5908207,-0.4807778,0.3723042
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13888733068.9007
+	ECC = 0.0329718820664872
+	INC = 0.381947266536888
+	LPE = 166.027854041261
+	LAN = 327.078226161161
+	MNA = 5.37220015370716
+	EPH = 71021800.4372013
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1395474384
+	mid = 1395474384
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67683004.8927677
+	lifetime = 687421.664428711
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

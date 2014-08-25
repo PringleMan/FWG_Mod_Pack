@@ -1,0 +1,75 @@
+pid = 3e6ce11f8e8c4e63892aa7814bdb14e9
+name = Ast. AKJ-373
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67770115.7290271
+lct = 67770115.7290271
+root = 0
+lat = -0.257671548466927
+lon = -366.807664144211
+alt = 13158958855.8857
+hgt = -1
+nrm = 0,1,0
+rot = 0.5828053,0.5899582,-0.4352742,0.350462
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13494696653.3685
+	ECC = 0.00582689838846021
+	INC = 0.307013886334453
+	LPE = 256.641657938508
+	LAN = 71.2245413441824
+	MNA = 1.97122243915709
+	EPH = 71113193.3047107
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 730095737
+	mid = 730095737
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67770115.7290271
+	lifetime = 1134446.84143066
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
