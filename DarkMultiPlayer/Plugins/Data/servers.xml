@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<settings>
-  <global username="PrC.PringleMan" cache-size="100" player-color="0.5, 0, 1" chat-key="289" screenshot-key="0" selected-flag="Squad/Flags/default" />
-  <servers>
-    <server name="FWG" address="game.mystacx.net" port="6702" />
-  </servers>
-</settings>

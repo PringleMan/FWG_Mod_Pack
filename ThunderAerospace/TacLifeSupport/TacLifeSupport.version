@@ -1,0 +1,11 @@
+﻿{
+  "NAME": "TAC Life Support",
+  "URL": "http://ksp-avc.cybutek.net/version.php?id=9",
+  "DOWNLOAD": "",
+  "VERSION": "0.9.1.11",
+  "KSP_VERSION": {
+    "MAJOR": 0,
+    "MINOR": 24,
+    "PATCH": 2
+  }
+}
