@@ -1,0 +1,75 @@
+pid = fe7d5f97052a457ba44f334ddd96bca7
+name = Ast. TGT-413
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67949479.9549286
+lct = 67949479.9549286
+root = 0
+lat = 2.17349065295853
+lon = 222.334810356333
+alt = 15345648756.4113
+hgt = -1
+nrm = 0,1,0
+rot = 0.3116008,0.5799484,-0.4270696,0.6198197
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14906744397.3869
+	ECC = 0.0917761383581946
+	INC = 2.26305876640429
+	LPE = 199.04965760328
+	LAN = 253.074637405136
+	MNA = 5.99051785413689
+	EPH = 70868991.7347138
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1315663372
+	mid = 1315663372
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67949479.9549286
+	lifetime = 1496132.72094727
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

@@ -1,0 +1,75 @@
+pid = a4879631c7814aec8520bb22185d6299
+name = Ast. NGG-034
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67949445.8583086
+lct = 67949445.8583086
+root = 0
+lat = 0.475147921373433
+lon = 215.853527839217
+alt = 15001690242.8584
+hgt = -1
+nrm = 0,1,0
+rot = -0.4225176,-0.8983204,0.09221836,0.07742897
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14989954410.8371
+	ECC = 0.0986045231376096
+	INC = 0.543406419247968
+	LPE = 167.140898164339
+	LAN = 259.390274857438
+	MNA = 0.364419581183671
+	EPH = 71380692.0130938
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1631986854
+	mid = 1631986854
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67949445.8583086
+	lifetime = 518501.184082031
+	refTime = 1728000
+	size = 1
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

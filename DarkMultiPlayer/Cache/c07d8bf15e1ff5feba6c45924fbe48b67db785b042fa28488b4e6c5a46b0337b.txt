@@ -1,0 +1,75 @@
+pid = 6c3e2a7757224a05a81590c1ea34f302
+name = Ast. RSW-148
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67949410.3422016
+lct = 67949410.3422016
+root = 0
+lat = 0.2798193406452
+lon = 217.765039801223
+alt = 14733150756.0681
+hgt = -1
+nrm = 0,1,0
+rot = 0.5517347,-0.01599598,0.5903561,0.588908
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14586362768.9893
+	ECC = 0.0735483331020054
+	INC = 0.299368917711503
+	LPE = 185.401455514791
+	LAN = 253.094523264481
+	MNA = 6.22602398470257
+	EPH = 70936876.6263813
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 23637177
+	mid = 23637177
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67949410.3422016
+	lifetime = 1238286.75842285
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

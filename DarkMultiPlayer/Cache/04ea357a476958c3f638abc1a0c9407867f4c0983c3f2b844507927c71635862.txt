@@ -1,0 +1,75 @@
+pid = 2e484e774e96445e8b9ff61a516c62df
+name = Ast. QFU-379
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 68175555.8794853
+lct = 68175555.8794853
+root = 0
+lat = 1.45649951888818
+lon = 39.7218971581739
+alt = 14908690322.8581
+hgt = -1
+nrm = 0,1,0
+rot = 0.2065054,-0.306227,0.3697287,0.8525733
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14722608893.4585
+	ECC = 0.0765785914000987
+	INC = 1.55327746152076
+	LPE = 187.03662192511
+	LAN = 263.021814932137
+	MNA = 6.1800039768519
+	EPH = 71154680.9038993
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1625931996
+	mid = 1625931996
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 68175555.8794853
+	lifetime = 1442481.92138672
+	refTime = 1728000
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

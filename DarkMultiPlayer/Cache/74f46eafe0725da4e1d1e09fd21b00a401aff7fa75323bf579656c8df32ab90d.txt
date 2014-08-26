@@ -1,0 +1,75 @@
+pid = b28c64902f854ffe9fa6cca45b49998b
+name = Ast. OGO-604
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 68175653.1595425
+lct = 68175653.1595425
+root = 0
+lat = -0.442085820401586
+lon = 33.6723389581474
+alt = 14000718385.7923
+hgt = -1
+nrm = 0,1,0
+rot = 0.7208684,0.4900381,0.1344002,0.4713258
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14860828887.6923
+	ECC = 0.0835320828486104
+	INC = 0.482595956095984
+	LPE = 359.102747610387
+	LAN = 33.0304287752439
+	MNA = 6.08812108595891
+	EPH = 69513268.6563686
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 856898438
+	mid = 856898438
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 68175653.1595425
+	lifetime = 1162366.06750488
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

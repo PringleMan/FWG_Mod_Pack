@@ -13,7 +13,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = AntennaRange.ARConfiguration,ResourceManifest.ResourceManifest,StageRecovery.MainButton
+			visibleButtons = AntennaRange.ARConfiguration,ResourceManifest.ResourceManifest,StageRecovery.MainButton,KerbalAlarmClock.btnToolbarIcon
 		}
 	}
 	MAINMENU
@@ -28,7 +28,7 @@ toolbars
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = AntennaRange.ARConfiguration,ResourceManifest.ResourceManifest,StageRecovery.MainButton
+			visibleButtons = AntennaRange.ARConfiguration,ResourceManifest.ResourceManifest,StageRecovery.MainButton,KerbalAlarmClock.btnToolbarIcon
 		}
 		toolbar_54556368
 		{

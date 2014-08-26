@@ -1,0 +1,75 @@
+pid = eb1d9531a28d4eb7928ff65920919590
+name = Ast. MLV-892
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 68184448.0970356
+lct = 68184448.0970356
+root = 0
+lat = -0.0871724542692549
+lon = -320.765317275901
+alt = 14670826588.2892
+hgt = -1
+nrm = 0,1,0
+rot = -0.5846685,-0.1410252,-0.7126284,0.3611584
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14254875198.4688
+	ECC = 0.0476557841828144
+	INC = 0.314618624187982
+	LPE = 12.1347291187122
+	LAN = 143.522638187283
+	MNA = 6.15125190951932
+	EPH = 72796178.6146138
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 987123517
+	mid = 987123517
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 68184448.0970356
+	lifetime = 512522.341918945
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

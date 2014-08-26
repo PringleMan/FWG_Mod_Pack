@@ -1,0 +1,75 @@
+pid = dd99623d61ca476a874dbbc9f59251dd
+name = Ast. YAZ-364
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 68184529.2976238
+lct = 68184529.2976238
+root = 0
+lat = 0.988581012932149
+lon = -334.936858855227
+alt = 13925422273.0154
+hgt = -1
+nrm = 0,1,0
+rot = -0.06802002,0.9727438,-0.03660102,0.2186393
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15451520972.3815
+	ECC = 0.119047109245605
+	INC = 1.16844786220893
+	LPE = 173.965879031149
+	LAN = 203.286694406876
+	MNA = 0.0360326673179844
+	EPH = 69537005.5061199
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1430112622
+	mid = 1430112622
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 68184529.2976238
+	lifetime = 721962.268066406
+	refTime = 1728000
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

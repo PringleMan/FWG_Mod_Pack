@@ -1,0 +1,75 @@
+pid = 63b6c443dd6c40fc8cb6c8fbfbc6beb0
+name = Ast. CKH-939
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67950206.3171206
+lct = 67950206.3171206
+root = 0
+lat = 1.91080225215114
+lon = 212.152236621085
+alt = 13664335992.211
+hgt = -1
+nrm = 0,1,0
+rot = 0.4764354,-0.1372083,0.3504705,0.7945777
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14162731130.0501
+	ECC = 0.0404712143732358
+	INC = 1.9469546087288
+	LPE = 168.785542866551
+	LAN = 216.261353679316
+	MNA = 0.174861737406737
+	EPH = 69947284.1247378
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 849851726
+	mid = 849851726
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67950206.3171206
+	lifetime = 1424329.76074219
+	refTime = 1728000
+	size = 0
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

@@ -1,0 +1,75 @@
+pid = 476600c03f7545db8d04d6b82c78bd3b
+name = Ast. HOL-032
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67950201.5971216
+lct = 67950201.5971216
+root = 0
+lat = -0.39161031966418
+lon = 213.928167403389
+alt = 15267881196.5752
+hgt = -1
+nrm = 0,1,0
+rot = -0.3027205,-0.789769,0.1091515,0.5222175
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 16388113303.259
+	ECC = 0.170067817435501
+	INC = 0.44167052178248
+	LPE = 324.082187318359
+	LAN = 76.6404860816405
+	MNA = 6.27228117161285
+	EPH = 70052375.7182153
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1295706262
+	mid = 1295706262
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67950201.5971216
+	lifetime = 1061795.76416016
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

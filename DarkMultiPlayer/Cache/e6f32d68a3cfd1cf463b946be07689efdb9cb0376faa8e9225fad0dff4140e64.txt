@@ -1,0 +1,75 @@
+pid = 94e342dc45794c6b9b440d3a2c8e7f2b
+name = Ast. RHI-628
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67949450.8755956
+lct = 67949450.8755956
+root = 0
+lat = -0.168775062282072
+lon = 216.985315287894
+alt = 14058104877.9124
+hgt = -1
+nrm = 0,1,0
+rot = -0.5959918,-0.7488542,-0.08799567,0.2761666
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14003057753.7187
+	ECC = 0.0333257511293732
+	INC = 0.180604856230244
+	LPE = 23.2639480984633
+	LAN = 72.3466375207514
+	MNA = 5.73820535530389
+	EPH = 70623242.5504003
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 117569543
+	mid = 117569543
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67949450.8755956
+	lifetime = 599275.456237793
+	refTime = 1728000
+	size = 0
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

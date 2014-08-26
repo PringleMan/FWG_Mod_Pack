@@ -1,0 +1,75 @@
+pid = 8e978a88e0c540febd7708fb8c072297
+name = Ast. LXJ-660
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 68175658.1758294
+lct = 68175658.1758294
+root = 0
+lat = -0.0137709655730036
+lon = 40.9240736164873
+alt = 13740454322.3518
+hgt = -1
+nrm = 0,1,0
+rot = 0.076193,-0.6064537,-0.5342453,0.583944
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13778694275.4992
+	ECC = 0.0222841518650699
+	INC = 0.372460267808034
+	LPE = 44.5769746562245
+	LAN = 151.807406779149
+	MNA = 5.28318434157837
+	EPH = 72527165.9761223
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1053637998
+	mid = 1053637998
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 68175658.1758294
+	lifetime = 1539293.66455078
+	refTime = 1728000
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

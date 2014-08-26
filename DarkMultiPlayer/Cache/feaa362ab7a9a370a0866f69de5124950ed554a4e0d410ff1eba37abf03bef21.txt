@@ -1,0 +1,75 @@
+pid = 7785dd9d624b423fbd7d58814ffdbd73
+name = Ast. IQC-604
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 68175622.7764736
+lct = 68175622.7764736
+root = 0
+lat = -0.131548383071304
+lon = 42.5097761605205
+alt = 15425951626.3906
+hgt = -1
+nrm = 0,1,0
+rot = 0.3271907,-0.9170322,0.2228415,0.04837129
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14982315312.402
+	ECC = 0.0926141168185756
+	INC = 0.297007219358826
+	LPE = 331.309376597388
+	LAN = 129.222266655804
+	MNA = 0.0569007124756941
+	EPH = 71700417.4053798
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1903813624
+	mid = 1903813624
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 68175622.7764736
+	lifetime = 1671377.78320313
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

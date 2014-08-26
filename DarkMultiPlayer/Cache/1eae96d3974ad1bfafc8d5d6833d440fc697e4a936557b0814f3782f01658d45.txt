@@ -1,0 +1,75 @@
+pid = 109a53129a004bf3a1fb10080d3552fe
+name = Ast. HOQ-997
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67949408.9222019
+lct = 67949408.9222019
+root = 0
+lat = 1.43225601939408
+lon = 210.692243967862
+alt = 13518133114.7362
+hgt = -1
+nrm = 0,1,0
+rot = -0.5914252,0.4535859,-0.2601979,0.6138185
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14440095211.6127
+	ECC = 0.0636694528081414
+	INC = 1.46784192581103
+	LPE = 149.329660629105
+	LAN = 212.554922800085
+	MNA = 0.453240992033008
+	EPH = 69837998.1128757
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1979396707
+	mid = 1979396707
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67949408.9222019
+	lifetime = 1543151.6784668
+	refTime = 1728000
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

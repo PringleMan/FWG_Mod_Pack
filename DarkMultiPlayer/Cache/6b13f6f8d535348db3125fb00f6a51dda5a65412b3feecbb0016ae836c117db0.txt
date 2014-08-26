@@ -1,0 +1,75 @@
+pid = 463f800bb8014d7a80385fe7bfd9b309
+name = Ast. SUM-579
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67949440.8029235
+lct = 67949440.8029235
+root = 0
+lat = 0.0785856838265893
+lon = 227.204864604692
+alt = 15735066850.1414
+hgt = -1
+nrm = 0,1,0
+rot = 0.0251561,-0.3847646,0.5714048,0.7244446
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14883567203.1031
+	ECC = 0.0907564492794308
+	INC = 0.552046418349644
+	LPE = 156.520504308304
+	LAN = 323.529680826582
+	MNA = 0.270139208191635
+	EPH = 72574677.2531189
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 655457705
+	mid = 655457705
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67949440.8029235
+	lifetime = 264171.141815186
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

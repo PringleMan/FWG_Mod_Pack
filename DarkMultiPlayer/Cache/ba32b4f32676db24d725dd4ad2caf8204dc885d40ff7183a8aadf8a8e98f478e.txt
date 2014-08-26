@@ -1,0 +1,75 @@
+pid = effa0bdfda27440995497717c1b3aca4
+name = Ast. JLA-406
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 68184485.9970277
+lct = 68184485.9970277
+root = 0
+lat = 0.0301636092846269
+lon = -321.83603281297
+alt = 15029114503.6957
+hgt = -1
+nrm = 0,1,0
+rot = -0.2253648,-0.2953984,0.8431193,0.3887163
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14483478808.4226
+	ECC = 0.0627042214458923
+	INC = 0.284737494759654
+	LPE = 160.413642122234
+	LAN = 332.487989147429
+	MNA = 0.0804678054182453
+	EPH = 72559033.1161684
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1372741432
+	mid = 1372741432
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 68184485.9970277
+	lifetime = 1282424.19433594
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

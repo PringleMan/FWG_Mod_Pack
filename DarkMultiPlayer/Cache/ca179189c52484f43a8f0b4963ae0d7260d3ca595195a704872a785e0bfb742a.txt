@@ -1,0 +1,75 @@
+pid = fe7ddf0a90904e2bb35a7238aa249568
+name = Ast. WKE-224
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 68175637.9756741
+lct = 68175637.9756741
+root = 0
+lat = 0.00505221520092835
+lon = 36.2396041496365
+alt = 14458385307.2218
+hgt = -1
+nrm = 0,1,0
+rot = 0.1982489,0.5555315,0.6523582,0.4759314
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14121501300.43
+	ECC = 0.0533009060273163
+	INC = 0.0383697532290314
+	LPE = 152.04826832366
+	LAN = 321.675576277198
+	MNA = 0.765179517879538
+	EPH = 73170675.2193264
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 379780660
+	mid = 379780660
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 68175637.9756741
+	lifetime = 1108350.98876953
+	refTime = 1728000
+	size = 0
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

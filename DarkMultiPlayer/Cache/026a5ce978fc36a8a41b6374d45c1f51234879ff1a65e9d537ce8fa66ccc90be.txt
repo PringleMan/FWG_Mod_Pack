@@ -1,0 +1,75 @@
+pid = 2a627d4b043d4eb2981cb9a2c2392fa5
+name = Ast. SIO-780
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 68184491.0170267
+lct = 68184491.0170267
+root = 0
+lat = -0.178134613195638
+lon = -312.830680292159
+alt = 16170526489.7172
+hgt = -1
+nrm = 0,1,0
+rot = -0.6738642,0.01850507,0.5981837,0.4332905
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15070924552.763
+	ECC = 0.0990206064702739
+	INC = 0.907019117439109
+	LPE = 349.358235493813
+	LAN = 156.253158578649
+	MNA = 0.130019448753127
+	EPH = 72983887.3549173
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 160129489
+	mid = 160129489
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 68184491.0170267
+	lifetime = 821962.051391602
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

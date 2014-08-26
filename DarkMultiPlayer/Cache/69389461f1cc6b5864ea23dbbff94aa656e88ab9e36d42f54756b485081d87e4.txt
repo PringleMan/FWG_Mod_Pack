@@ -1,0 +1,75 @@
+pid = f5c196bb30804fc9bfe071e7d9012bbd
+name = Ast. BSV-526
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 68175542.6674996
+lct = 68175542.6674996
+root = 0
+lat = -0.117015397385758
+lon = 34.353567833442
+alt = 13350725042.0619
+hgt = -1
+nrm = 0,1,0
+rot = 0.4237592,-0.5416725,0.5631734,0.4580992
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13594744411.1038
+	ECC = 0.00300836357294563
+	INC = 0.186441295755569
+	LPE = 103.260651266877
+	LAN = 108.430703566615
+	MNA = 4.8734298849944
+	EPH = 72363958.5366402
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 2053520599
+	mid = 2053520599
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 68175542.6674996
+	lifetime = 500749.392700195
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
