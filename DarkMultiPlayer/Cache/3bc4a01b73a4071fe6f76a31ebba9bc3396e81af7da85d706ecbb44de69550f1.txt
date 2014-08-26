@@ -1,0 +1,75 @@
+pid = e177b0c894e3410083afa49c3306a1a9
+name = Ast. KJD-101
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67856636.817073
+lct = 67856636.817073
+root = 0
+lat = -0.428248632596661
+lon = -73.6151125818192
+alt = 13677867114.2288
+hgt = -1
+nrm = 0,1,0
+rot = 0.3728376,-0.6579226,0.2752108,0.5936237
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14265249583.9739
+	ECC = 0.0485457582346401
+	INC = 0.671638346251667
+	LPE = 24.8064894603489
+	LAN = 353.195367399646
+	MNA = 0.0335053122758072
+	EPH = 69543033.679866
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1904391880
+	mid = 1904391880
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67856636.817073
+	lifetime = 1069811.96594238
+	refTime = 1728000
+	size = 1
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

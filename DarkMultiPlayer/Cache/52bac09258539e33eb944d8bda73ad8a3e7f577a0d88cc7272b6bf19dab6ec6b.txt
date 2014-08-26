@@ -1,0 +1,550 @@
+pid = 2306c8d4e45b4b349eb50f1c12f06a0c
+name = Supply Depot Debris
+type = Debris
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 28.9799939543009
+lct = 67830112.8384378
+root = 0
+lat = -1.10092006084157
+lon = -42.4203618317626
+alt = 197984.284362784
+hgt = -1
+nrm = -0.9275986,-0.3730856,-0.01918344
+rot = -0.366335,0.5766904,-0.6197899,-0.3861185
+CoM = -1.354017E-06,0.2812115,-2.183771E-07
+stg = 1
+prst = False
+ref = 0
+ctrl = False
+cPch = 0
+cHdg = 0
+cMod = -1
+ORBIT
+{
+	SMA = 795930.24100581
+	ECC = 0.003846686153967
+	INC = 1.54380346474673
+	LPE = 93.1970663362631
+	LAN = 289.06599727205
+	MNA = 2.30335096666508
+	EPH = 67830141.8384318
+	REF = 1
+}
+PART
+{
+	name = dockingPortLarge
+	uid = 2185876875
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 0
+	srfN = None, -1
+	attN = top, 1
+	attN = None, -1
+	mass = 0.2
+	temp = -125.2262
+	expt = 0.5
+	state = 0
+	connected = False
+	attached = False
+	flag = Squad/Flags/default
+	rTrf = dockingPortLarge
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = PreAttached
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = True
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = False
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleConnectedLivingSpace
+		isEnabled = True
+		spaceName = Clamp-O-Tron Sr. Docking Port
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDockingHatch
+		isEnabled = True
+		hatchOpen = False
+		docNodeAttachmentNodeName = top
+		docNodeTransformName = 
+		EVENTS
+		{
+			OpenHatch
+			{
+				active = False
+				guiActive = True
+				guiIcon = Open Hatch
+				guiName = Open Hatch
+				category = Open Hatch
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			CloseHatch
+			{
+				active = False
+				guiActive = True
+				guiIcon = Close Hatch
+				guiName = Close Hatch
+				category = Close Hatch
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	name = liquidEngineMini
+	uid = 1136537791
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 0,0.290000915527344,0
+	rotation = 1,0,0,0
+	mirror = 1,1,1
+	istg = 1
+	dstg = 0
+	sqor = 1
+	sidx = 8
+	attm = 0
+	srfN = None, -1
+	attN = top, 0
+	attN = None, -1
+	mass = 6.4
+	temp = -124.8616
+	expt = 32
+	state = 1
+	connected = False
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = liquidEngineMini
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleEngines
+		isEnabled = True
+		staged = True
+		flameout = False
+		EngineIgnited = True
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		thrustPercentage_UIFlight
+		{
+			controlEnabled = True
+			minValue = 0
+			maxValue = 100
+			stepIncrement = 0.5
+		}
+		EVENTS
+		{
+			Activate
+			{
+				active = False
+				guiActive = True
+				guiIcon = Activate Engine
+				guiName = Activate Engine
+				category = Activate Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Shutdown
+			{
+				active = True
+				guiActive = True
+				guiIcon = Shutdown Engine
+				guiName = Shutdown Engine
+				category = Shutdown Engine
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleJettison
+		isEnabled = True
+		EVENTS
+		{
+			Jettison
+			{
+				active = False
+				guiActive = True
+				guiIcon = Jettison
+				guiName = Jettison
+				category = Jettison
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			JettisonAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleGimbal
+		isEnabled = True
+		gimbalLock = False
+		EVENTS
+		{
+			LockGimbal
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Lock Gimbal
+				guiName = Lock Gimbal
+				category = Lock Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			FreeGimbal
+			{
+				active = False
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Free Gimbal
+				guiName = Free Gimbal
+				category = Free Gimbal
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 2.5
+		currentScale = 2.5
+		defaultScale = 0.625
+		isFreeScale = False
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 300
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+ACTIONGROUPS
+{
+	Stage = True, 67830112.058438
+	Gear = True, 0
+	Light = False, 0
+	RCS = True, 67829879.5745743
+	SAS = True, 67829670.7146178
+	Brakes = False, 0
+	Abort = False, 0
+	Custom01 = False, 0
+	Custom02 = False, 0
+	Custom03 = False, 0
+	Custom04 = False, 0
+	Custom05 = False, 0
+	Custom06 = False, 0
+	Custom07 = False, 0
+	Custom08 = False, 0
+	Custom09 = False, 0
+	Custom10 = False, 0
+}
+DISCOVERY
+{
+	state = -1
+	lastObservedTime = 0
+	lifetime = Infinity
+	refTime = Infinity
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+	pitch = 0
+	yaw = -0.048
+	roll = 0
+	trimPitch = 0
+	trimYaw = -0.048
+	trimRoll = 0
+	mainThrottle = 0
+}

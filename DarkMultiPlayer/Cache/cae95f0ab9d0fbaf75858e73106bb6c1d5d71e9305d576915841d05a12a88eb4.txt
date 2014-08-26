@@ -1,0 +1,75 @@
+pid = 1667272a05cc4a8984026c214340bde0
+name = Ast. NJA-324
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67856611.7570782
+lct = 67856611.7570782
+root = 0
+lat = -0.190946063446582
+lon = -67.9523787510891
+alt = 13903884287.6544
+hgt = -1
+nrm = 0,1,0
+rot = -0.232517,0.3197105,-0.5182717,0.7583637
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13824108887.8795
+	ECC = 0.024696286557388
+	INC = 0.369855020964139
+	LPE = 30.3572464744497
+	LAN = 108.141874507706
+	MNA = 5.4983245794665
+	EPH = 71374505.433836
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 222480588
+	mid = 222480588
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67856611.7570782
+	lifetime = 1076886.36474609
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

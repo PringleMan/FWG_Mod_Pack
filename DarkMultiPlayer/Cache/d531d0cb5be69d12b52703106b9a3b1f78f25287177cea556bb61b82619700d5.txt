@@ -1,0 +1,316 @@
+pid = ae19994df5204003bfd8b7256677c7ee
+name = Minmus Maxmus Debris
+type = Debris
+sit = FLYING
+landed = False
+landedAt = 
+splashed = False
+met = 0.0599999874830246
+lct = 67919074.8419568
+root = 0
+lat = -0.0868825588785413
+lon = 285.45777949379
+alt = 2147.07258299575
+hgt = 2082.641
+nrm = -0.5963653,-0.4022284,-0.6946661
+rot = 0.0001667181,0.4618627,0.706549,-0.5361636
+CoM = -5.946831E-06,5.223449E-07,4.750792E-06
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+cPch = 0
+cHdg = 0
+cMod = -1
+ORBIT
+{
+	SMA = 303701.799491007
+	ECC = 0.989380862761542
+	INC = 6.61387327509051
+	LPE = 179.733235356603
+	LAN = 165.399859648556
+	MNA = 2.91061542084671
+	EPH = 67919074.9019568
+	REF = 1
+}
+PART
+{
+	name = RC.cone
+	uid = 2918000270
+	mid = 720465576
+	launchID = 6
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 7
+	attm = 0
+	srfN = None, -1
+	attN = None, -1
+	mass = 0.1938827
+	temp = 14.11042
+	expt = 0.5
+	state = 0
+	connected = False
+	attached = False
+	flag = Squad/Flags/default
+	rTrf = RC.cone
+	modCost = 547.5
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = RealChuteModule
+		isEnabled = True
+		caseMass = 0.08
+		cutSpeed = 0.5
+		timer = 0
+		mustGoDown = True
+		deployOnGround = False
+		spareChutes = 5
+		initiated = True
+		capOff = False
+		wait = True
+		armed = False
+		oneWasDeployed = False
+		staged = False
+		launched = False
+		baseDrag = 0.32
+		chuteCount = 5
+		EVENTS
+		{
+			GUIDeploy
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy Chute
+				guiName = Deploy Chute
+				category = Deploy Chute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUICut
+			{
+				active = False
+				guiActive = True
+				guiIcon = Cut main chute
+				guiName = Cut chute
+				category = Cut main chute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIArm
+			{
+				active = True
+				guiActive = True
+				guiIcon = Arm parachute
+				guiName = Arm parachute
+				category = Arm parachute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIDisarm
+			{
+				active = True
+				guiActive = False
+				guiIcon = Disarm parachute
+				guiName = Disarm parachute
+				category = Disarm parachute
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIRepack
+			{
+				active = True
+				guiActive = False
+				guiIcon = Repack chute
+				guiName = Repack chute
+				category = Repack chute
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIToggleWindow
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Toggle info
+				guiName = Toggle info
+				category = Toggle info
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionDeploy
+			{
+				actionGroup = None
+			}
+			ActionCut
+			{
+				actionGroup = None
+			}
+			ActionArm
+			{
+				actionGroup = None
+			}
+			ActionDisarm
+			{
+				actionGroup = None
+			}
+		}
+		PARACHUTE
+		{
+			material = Nylon
+			preDeployedDiameter = 2.5
+			deployedDiameter = 50
+			minIsPressure = False
+			minDeployment = 25000
+			minPressure = 0.01
+			deploymentAlt = 700
+			cutAlt = -1
+			preDeploymentSpeed = 2
+			deploymentSpeed = 6
+			parachuteName = RC_triple_canopy
+			baseParachuteName = RC_triple_canopy
+			capName = cone
+			preDeploymentAnimation = RC_triple_chute_semi_deploy
+			deploymentAnimation = RC_triple_chute_full_deploy
+			forcedOrientation = 0
+			depState = STOWED
+		}
+	}
+	MODULE
+	{
+		name = ProceduralChute
+		isEnabled = True
+		caseID = 0
+		lastCaseID = 0
+		size = 0
+		lastSize = 0
+		planets = 0
+		presetID = 0
+		originalSize = (1, 1, 1)
+		top = 0
+		bottom = -0.023045
+		debut = 1
+		initiated = True
+		mustGoDown = True
+		deployOnGround = False
+		secondaryChute = False
+		timer = 0s
+		cutSpeed = 0.5
+		spares = 5
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		CHUTE
+		{
+			chuteID = 0
+			modelID = 1
+			typeID = 0
+			lastTypeID = 0
+			position = (-9.1, 1.2, 5.2)
+			isPressure = False
+			calcSelect = True
+			getMass = True
+			useDry = True
+			preDepDiam = 2.5
+			depDiam = 50
+			predepClause = 25000
+			mass = 10
+			landingSpeed = 6
+			deceleration = 10
+			refDepAlt = 700
+			chuteCount = 1
+			deploymentAlt = 700
+			cutAlt = 
+			preDepSpeed = 2
+			depSpeed = 6
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+ACTIONGROUPS
+{
+	Stage = True, 67919061.7219595
+	Gear = True, 0
+	Light = False, 0
+	RCS = False, 0
+	SAS = True, 67919055.6819608
+	Brakes = False, 0
+	Abort = False, 0
+	Custom01 = False, 0
+	Custom02 = False, 0
+	Custom03 = False, 0
+	Custom04 = False, 0
+	Custom05 = False, 0
+	Custom06 = False, 0
+	Custom07 = False, 0
+	Custom08 = False, 0
+	Custom09 = False, 0
+	Custom10 = False, 0
+}
+DISCOVERY
+{
+	state = -1
+	lastObservedTime = 0
+	lifetime = Infinity
+	refTime = Infinity
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+	pitch = 0
+	yaw = 0
+	roll = 0
+	trimPitch = 0
+	trimYaw = 0
+	trimRoll = 0
+	mainThrottle = 1
+}

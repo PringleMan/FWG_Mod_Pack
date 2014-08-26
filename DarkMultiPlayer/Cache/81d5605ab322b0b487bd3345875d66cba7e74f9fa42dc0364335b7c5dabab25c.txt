@@ -1,0 +1,75 @@
+pid = d30b30c3779d47ad89861d66fe447380
+name = Ast. JRJ-450
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67828060.270106
+lct = 67828060.270106
+root = 0
+lat = -0.106957717393599
+lon = 318.58936654268
+alt = 13922096393.1967
+hgt = -1
+nrm = 0,1,0
+rot = -0.5438249,0.6484892,0.03380495,0.5315765
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13907659216.0488
+	ECC = 0.0238491850117075
+	INC = 0.527810315586017
+	LPE = 201.230109384053
+	LAN = 333.63056808586
+	MNA = 5.86433723552179
+	EPH = 72862740.5801646
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 163510520
+	mid = 163510520
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67828060.270106
+	lifetime = 1290509.28039551
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

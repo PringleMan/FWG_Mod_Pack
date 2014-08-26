@@ -1,0 +1,75 @@
+pid = 872e0760c2e14d37adca0e93d8e93384
+name = Ast. FMC-016
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67828040.0223396
+lct = 67828040.0223396
+root = 0
+lat = 0.0761985763006684
+lon = 315.904369206807
+alt = 13946499177.9681
+hgt = -1
+nrm = 0,1,0
+rot = -0.6680542,0.1073919,0.4604355,0.574604
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13925101332.0209
+	ECC = 0.0203836309045363
+	INC = 0.680205944986566
+	LPE = 349.231633449626
+	LAN = 145.685897841367
+	MNA = 0.149829670386131
+	EPH = 72703662.5809333
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1359810884
+	mid = 1359810884
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67828040.0223396
+	lifetime = 1279715.54260254
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

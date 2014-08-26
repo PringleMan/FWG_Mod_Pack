@@ -1,0 +1,75 @@
+pid = 341ae7c4acba4b8c97ff3395d908f674
+name = Ast. AJS-983
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67826806.0305449
+lct = 67826806.0305449
+root = 0
+lat = 0.513265123993427
+lon = 321.687237384749
+alt = 15925670917.4276
+hgt = -1
+nrm = 0,1,0
+rot = -0.4530925,0.2733842,0.2710185,0.804063
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15326990370.8613
+	ECC = 0.113117025067766
+	INC = 0.669339501689145
+	LPE = 175.305224196864
+	LAN = 273.957404855062
+	MNA = 0.067556408411777
+	EPH = 71435846.1306426
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 240424807
+	mid = 240424807
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67826806.0305449
+	lifetime = 1585229.26025391
+	refTime = 1728000
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

@@ -1,0 +1,75 @@
+pid = 07ef8e11ea8a47228c0c02ebd0fa7741
+name = Ast. FGB-872
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67856365.3963128
+lct = 67856365.3963128
+root = 0
+lat = -0.578267211448734
+lon = -74.5954405606835
+alt = 13879409862.8317
+hgt = -1
+nrm = 0,1,0
+rot = -0.757547,0.03426735,0.02536527,0.6513869
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14666030978.4303
+	ECC = 0.0779140788529119
+	INC = 0.618800992878899
+	LPE = 357.542307979886
+	LAN = 21.521894914467
+	MNA = 0.253777998221262
+	EPH = 69952738.9009515
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 187716509
+	mid = 187716509
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67856365.3963128
+	lifetime = 1636376.33056641
+	refTime = 1728000
+	size = 1
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

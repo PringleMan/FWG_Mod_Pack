@@ -1,0 +1,75 @@
+pid = ae4b0c21cb2d461bb921285b5811b5b0
+name = Ast. DQD-849
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67856370.4387418
+lct = 67856370.4387418
+root = 0
+lat = -0.686136854374547
+lon = -49.400746194506
+alt = 15813466349.6576
+hgt = -1
+nrm = 0,1,0
+rot = 0.8701636,-0.1124764,-0.4164887,0.2381209
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14835530587.8808
+	ECC = 0.0841462851115685
+	INC = 2.48918145926934
+	LPE = 9.7409289357713
+	LAN = 141.579361707578
+	MNA = 6.11993302704121
+	EPH = 72611755.3264371
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 412670751
+	mid = 412670751
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67856370.4387418
+	lifetime = 306391.724395752
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

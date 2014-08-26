@@ -1,0 +1,75 @@
+pid = 0abe3bf3699d462c86979712f2fd32cf
+name = Ast. HFK-347
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67856631.7970741
+lct = 67856631.7970741
+root = 0
+lat = -0.368625625363235
+lon = -72.6800570348719
+alt = 13440999351.6636
+hgt = -1
+nrm = 0,1,0
+rot = -0.6129131,0.4255942,0.6653931,0.021433
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13655881783.8583
+	ECC = 0.00682348711474853
+	INC = 0.396504301931246
+	LPE = 52.041532913985
+	LAN = 22.8991565145139
+	MNA = 5.38009525105596
+	EPH = 69606063.0470741
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 69918509
+	mid = 69918509
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67856631.7970741
+	lifetime = 1027288.86108398
+	refTime = 1728000
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

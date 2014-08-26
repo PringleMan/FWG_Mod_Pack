@@ -1,0 +1,75 @@
+pid = 51d2c2f0ca70441da0ad92f40478e62b
+name = Ast. XAY-186
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67828205.2234901
+lct = 67828205.2234901
+root = 0
+lat = 0.366172420855459
+lon = 320.725624028516
+alt = 14584709680.4544
+hgt = -1
+nrm = 0,1,0
+rot = -0.8065435,0.5287603,-0.1355164,0.2270143
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14266107793.0859
+	ECC = 0.0418986509002542
+	INC = 1.37596063080481
+	LPE = 182.090821652692
+	LAN = 308.799211746842
+	MNA = 0.0773298582508015
+	EPH = 72496033.2508339
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1803545465
+	mid = 1803545465
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67828205.2234901
+	lifetime = 1539741.90673828
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

@@ -1,0 +1,75 @@
+pid = 1c21743c09204f5eaf564094fdf588c9
+name = Ast. UMK-983
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67770125.6090251
+lct = 67770125.6090251
+root = 0
+lat = 0.170528212191468
+lon = -351.832986810627
+alt = 17107435322.761
+hgt = -1
+nrm = 0,1,0
+rot = 0.2472668,-0.405963,0.6250139,0.6192017
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 16631500604.7018
+	ECC = 0.183653264470452
+	INC = 0.176314982881488
+	LPE = 218.74056273638
+	LAN = 218.551696440236
+	MNA = 0.0721313562471756
+	EPH = 71154728.8683024
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 806447306
+	mid = 806447306
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67770125.6090251
+	lifetime = 383588.278198242
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

@@ -1,0 +1,75 @@
+pid = 100e491a47844662849d70e6a9239cc9
+name = Ast. LPU-127
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67826888.5291141
+lct = 67826888.5291141
+root = 0
+lat = -0.787489807511087
+lon = 308.035797087434
+alt = 13674724782.3088
+hgt = -1
+nrm = 0,1,0
+rot = -0.6531703,0.1945301,0.6532252,0.329884
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14259309197.047
+	ECC = 0.0567273446802811
+	INC = 0.810920712768953
+	LPE = 325.675465221265
+	LAN = 54.2042694634422
+	MNA = 0.583846577033872
+	EPH = 70487578.34845
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1484363803
+	mid = 1484363803
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67826888.5291141
+	lifetime = 1623433.66699219
+	refTime = 1728000
+	size = 0
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

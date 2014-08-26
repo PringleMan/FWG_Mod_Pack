@@ -1,0 +1,75 @@
+pid = 8724f93d5e3b42508d492cd1d6ac7774
+name = Ast. MLC-361
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67826868.3822196
+lct = 67826868.3822196
+root = 0
+lat = 1.03058720196659
+lon = 311.455571214235
+alt = 14506974001.3107
+hgt = -1
+nrm = 0,1,0
+rot = -0.5919501,0.5999277,-0.4452436,0.3023903
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15255697440.7337
+	ECC = 0.109250344542642
+	INC = 1.06941592012701
+	LPE = 184.588304107507
+	LAN = 208.327728122904
+	MNA = 6.18124622333425
+	EPH = 69685115.5318778
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1444604571
+	mid = 1444604571
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67826868.3822196
+	lifetime = 1399699.01733398
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

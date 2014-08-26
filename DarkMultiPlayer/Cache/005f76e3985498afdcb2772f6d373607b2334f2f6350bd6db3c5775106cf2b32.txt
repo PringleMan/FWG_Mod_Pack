@@ -1,0 +1,75 @@
+pid = 0fa230fbcd6e4f079a8205e6ff1a101e
+name = Ast. SNV-122
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67826768.7681447
+lct = 67826768.7681447
+root = 0
+lat = -0.19344538609464
+lon = 311.921738442432
+alt = 13452252371.5778
+hgt = -1
+nrm = 0,1,0
+rot = 0.489195,-0.6894931,-0.5335214,0.02534642
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13631851796.292
+	ECC = 0.00608161357689877
+	INC = 0.494102488099089
+	LPE = 31.4621673483639
+	LAN = 111.181153692706
+	MNA = 5.46259937403584
+	EPH = 71457048.6265431
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1545557350
+	mid = 1545557350
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67826768.7681447
+	lifetime = 989910.736083984
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

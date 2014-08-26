@@ -1,0 +1,4114 @@
+pid = 1c4db26352e640269bd615ab8ee18794
+name = Supply Depot
+type = Probe
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 1473.37344323099
+lct = 67829669.5146181
+root = 0
+lat = 0.392735384455012
+lon = 91.9621293143501
+alt = 194790.108156723
+hgt = -1
+nrm = -0.2646066,-0.4851231,0.8334504
+rot = -0.1377128,-0.25734,0.9541407,-0.0665358
+CoM = 4.285523E-05,-2.213453,4.693795E-06
+stg = 1
+prst = False
+ref = 4083800367
+ctrl = True
+cPch = 0.1883454
+cHdg = -5.304603
+cMod = 0
+ORBIT
+{
+	SMA = 794888.30962038
+	ECC = 0.00664555807533706
+	INC = 1.25050638029337
+	LPE = 107.63907158366
+	LAN = 287.308687651463
+	MNA = 4.73763674330294
+	EPH = 67831142.9680613
+	REF = 1
+}
+PART
+{
+	name = MKS.LogisticsHub
+	uid = 1051596199
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 0
+	srfN = None, -1
+	attN = top, 12
+	attN = bottom, 1
+	mass = 15
+	temp = -43.29069
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = MKS.LogisticsHub (Supply Depot)
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = MKSLcentral
+		isEnabled = True
+		status = 
+		saveCurrentTransfersList
+		{
+			key = 
+		}
+		savePreviousTransfersList
+		{
+			key = 
+		}
+		EVENTS
+		{
+			openGUIMain
+			{
+				active = True
+				guiActive = True
+				guiIcon = Kolony Logistics
+				guiName = Kolony Logistics
+				category = Kolony Logistics
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = UIRootManager
+		isEnabled = True
+		EVENTS
+		{
+			RootButtonClicked
+			{
+				active = True
+				guiActive = True
+				guiIcon = 
+				guiName = AGM : Enable
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	name = computerCore
+	uid = 4083800367
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 0,3.38999938964844,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 0
+	srfN = None, -1
+	attN = bottom, 0
+	attN = top, 2
+	mass = 0.5
+	temp = -41.29171
+	expt = 0
+	state = 1
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = computerCore
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		controlSrcStatusText = Operational
+		EVENTS
+		{
+			MakeReference
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control From Here
+				guiName = Control From Here
+				category = Control From Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RenameVessel
+			{
+				active = True
+				guiActive = True
+				guiIcon = Rename Vessel
+				guiName = Rename Vessel
+				category = Rename Vessel
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		stateString = Operational
+		WheelState = Active
+		EVENTS
+		{
+			OnToggle
+			{
+				active = True
+				guiActive = True
+				guiIcon = Toggle Torque
+				guiName = Toggle Torque
+				category = Toggle Torque
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleSAS
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ComputerCore
+		isEnabled = True
+		IsEnabled = False
+		nameStr = 
+		isupgraded = False
+		electrical_power_ratio = 0
+		last_active_time = 6.783114E+07
+		coreInit = True
+		EVENTS
+		{
+			RetrofitCore
+			{
+				active = False
+				guiActive = True
+				guiIcon = Retrofit
+				guiName = Retrofit
+				category = Retrofit
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = MechJebCore
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		MechJebLocalSettings
+		{
+			MechJebModuleJoke
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleMenu
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleSmartASS
+			{
+				mode = ORBITAL
+				target = OFF
+				advReference = INERTIAL
+				advDirection = FORWARD
+				forceRol = False
+				unlockParts = 
+				unlockTechs = flightControl
+				srfHdg
+				{
+					val = 90
+					_text = 90
+				}
+				srfPit
+				{
+					val = 90
+					_text = 90
+				}
+				srfRol
+				{
+					val = 0
+					_text = 0
+				}
+				rol
+				{
+					val = 0
+					_text = 0
+				}
+			}
+			MechJebModuleSpaceplaneAutopilot
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleStageStats
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleSpaceplaneGuidance
+			{
+				unlockParts = 
+				unlockTechs = unmannedTech
+			}
+			MechJebModuleRendezvousGuidance
+			{
+				unlockParts = 
+				unlockTechs = advUnmanned
+			}
+			MechJebModuleRendezvousAutopilotWindow
+			{
+				unlockParts = 
+				unlockTechs = advUnmanned
+			}
+			MechJebModuleRoverController
+			{
+				ControlHeading = False
+				ControlSpeed = False
+				BrakeOnEject = False
+				BrakeOnEnergyDepletion = False
+				WarpToDaylight = True
+				StabilityControl = False
+				LimitAcceleration = False
+				unlockParts = 
+				unlockTechs = 
+				heading
+				{
+					val = 0
+					_text = 0
+				}
+				speed
+				{
+					val = 10
+					_text = 10
+				}
+			}
+			MechJebModuleSettings
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleRoverWindow
+			{
+				unlockParts = 
+				unlockTechs = fieldScience
+			}
+			MechJebModuleTargetController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			ModExtensionDemo
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleWaypointHelpWindow
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleThrustWindow
+			{
+				unlockParts = 
+				unlockTechs = advFlightControl
+			}
+			MechJebModuleCustomInfoWindow
+			{
+			}
+			MechJebModuleTranslatron
+			{
+				trans_spd = 0
+				unlockParts = 
+				unlockTechs = advFlightControl
+			}
+			MechJebModuleWaypointWindow
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleWarpHelper
+			{
+				unlockParts = 
+				unlockTechs = advFlightControl
+				phaseAngle
+				{
+					val = 0
+					_text = 0
+				}
+			}
+			MechJebModuleRendezvousAutopilot
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleJokeObscurePanel
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleAttitudeAdjustment
+			{
+				unlockParts = 
+				unlockTechs = advFlightControl
+			}
+			MechJebModuleLandingAutopilot
+			{
+				deployGears = True
+				deployChutes = True
+				unlockParts = 
+				unlockTechs = 
+				touchdownSpeed
+				{
+					val = 0.5
+					_text = 0.5
+				}
+				limitGearsStage
+				{
+					val = 0
+					_text = 0
+				}
+				limitChutesStage
+				{
+					val = 0
+					_text = 0
+				}
+			}
+			MechJebModuleAscentPathEditor
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleDockingGuidance
+			{
+				unlockParts = 
+				unlockTechs = advUnmanned
+			}
+			MechJebModuleDockingAutopilot
+			{
+				forceRol = False
+				overrideSafeDistance = False
+				unlockParts = 
+				unlockTechs = 
+				rol
+				{
+					val = 0
+					_text = 0
+				}
+			}
+			MechJebModuleInfoItems
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleCustomWindowEditor
+			{
+				unlockParts = 
+				unlockTechs = flightControl
+			}
+			MechJebModuleAscentGuidance
+			{
+				unlockParts = 
+				unlockTechs = unmannedTech
+			}
+			MechJebModuleNodeExecutor
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleAscentAutopilot
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleRCSBalancerWindow
+			{
+				unlockParts = 
+				unlockTechs = advFlightControl
+			}
+			MechJebModuleLandingGuidance
+			{
+				unlockParts = 
+				unlockTechs = unmannedTech
+			}
+			MechJebModuleLandingPredictions
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleNodeEditor
+			{
+				unlockParts = 
+				unlockTechs = advFlightControl
+			}
+			MechJebModuleManeuverPlanner
+			{
+				unlockParts = 
+				unlockTechs = advFlightControl
+			}
+			MechJebModuleWarpController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleThrustController
+			{
+				limitThrottle = False
+				unlockParts = 
+				unlockTechs = 
+				maxThrottle
+				{
+					val = 1
+					_text = 100
+				}
+			}
+			MechJebModuleRCSController
+			{
+				unlockParts = 
+				unlockTechs = 
+				Tf
+				{
+					val = 1
+					_text = 1
+				}
+			}
+			MechJebModuleRCSBalancer
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleAttitudeController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleStagingController
+			{
+				unlockParts = 
+				unlockTechs = 
+			}
+			MechJebModuleFlightRecorder
+			{
+				markUT = 67829669.5146181
+				deltaVExpended = 3998.40869512941
+				dragLosses = 10.9362228733556
+				gravityLosses = 1814.3627524969
+				steeringLosses = 209.956931073731
+				markLatitude = -0.0972045887082149
+				markLongitude = -74.557714258158
+				markAltitude = 89.7856714954367
+				markBodyIndex = 1
+				maxDragGees = 0.0237757687057726
+				unlockParts = 
+				unlockTechs = 
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Surfaced
+		{
+		}
+		Flew
+		{
+			at = Kerbin
+		}
+		FlewBy
+		{
+		}
+		Orbited
+		{
+			at = Kerbin
+		}
+		SubOrbited
+		{
+			at = Kerbin
+		}
+	}
+	MODULE
+	{
+		name = FNModuleRadiation
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARControlSys
+		isEnabled = True
+		EVENTS
+		{
+			AerodynamicFailureStatus
+			{
+				active = True
+				guiActive = False
+				guiIcon = 
+				guiName = 
+				category = 
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = Megajoules
+		amount = 1
+		maxAmount = 1
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 990.17095529402
+		maxAmount = 1000
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = Size3to2Adapter
+	uid = 3108115463
+	mid = 1875170891
+	launchID = 1
+	parent = 1
+	position = 0,4.77999877929688,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 0
+	srfN = None, -1
+	attN = top, 3
+	attN = bottom, 1
+	mass = 0.2
+	temp = -40.70345
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = Size3to2Adapter
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	name = dockingPortLarge
+	uid = 3877020396
+	mid = 1875170891
+	launchID = 1
+	parent = 2
+	position = 0,5.88000106811523,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 0
+	srfN = None, -1
+	attN = None, -1
+	attN = bottom, 2
+	mass = 0.2
+	temp = -40.25996
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = dockingPortLarge
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDockingNode
+		isEnabled = True
+		state = Ready
+		dockUId = 0
+		dockNodeIdx = 0
+		EVENTS
+		{
+			Undock
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			UndockSameVessel
+			{
+				active = False
+				guiActive = True
+				guiIcon = Undock
+				guiName = Undock
+				category = Undock
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Decouple
+			{
+				active = False
+				guiActive = True
+				guiIcon = Decouple Node
+				guiName = Decouple Node
+				category = Decouple Node
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			SetAsTarget
+			{
+				active = True
+				guiActive = False
+				guiIcon = Set as Target
+				guiName = Set as Target
+				category = Set as Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			UnsetTarget
+			{
+				active = False
+				guiActive = False
+				guiIcon = Unset Target
+				guiName = Unset Target
+				category = Unset Target
+				guiActiveUnfocused = True
+				unfocusedRange = 200
+				externalToEVAOnly = False
+			}
+			EnableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable Crossfeed
+				guiName = Enable Crossfeed
+				category = Enable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			DisableXFeed
+			{
+				active = False
+				guiActive = True
+				guiIcon = Disable Crossfeed
+				guiName = Disable Crossfeed
+				category = Disable Crossfeed
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			MakeReferenceTransform
+			{
+				active = True
+				guiActive = True
+				guiIcon = Control from Here
+				guiName = Control from Here
+				category = Control from Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			UndockAction
+			{
+				actionGroup = None
+			}
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleConnectedLivingSpace
+		isEnabled = True
+		spaceName = Clamp-O-Tron Sr. Docking Port
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDockingHatch
+		isEnabled = True
+		hatchOpen = False
+		docNodeAttachmentNodeName = top
+		docNodeTransformName = 
+		EVENTS
+		{
+			OpenHatch
+			{
+				active = False
+				guiActive = True
+				guiIcon = Open Hatch
+				guiName = Open Hatch
+				category = Open Hatch
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			CloseHatch
+			{
+				active = False
+				guiActive = True
+				guiIcon = Close Hatch
+				guiName = Close Hatch
+				category = Close Hatch
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	name = rcsTankRadialLong
+	uid = 897737440
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = -1.08143126964569,-1.39614105224609,-1.08143174648285
+	rotation = 1.49099E-09,-0.3826834,-8.608233E-10,-0.9238796
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 5
+	sym = 6
+	sym = 7
+	srfN = srfAttach, 0
+	mass = 0.15
+	temp = -41.33199
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = rcsTankRadialLong
+	modCost = -180
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 620
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 142.832400617793
+		maxAmount = 150
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = rcsTankRadialLong
+	uid = 3110978561
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = -1.0814323425293,-1.39614105224609,1.08143126964569
+	rotation = 4.455954E-10,-0.9238795,-1.662983E-09,-0.3826835
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 4
+	sym = 6
+	sym = 7
+	srfN = srfAttach, 0
+	mass = 0.15
+	temp = -41.1789
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = rcsTankRadialLong
+	modCost = -180
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 620
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 142.832400617793
+		maxAmount = 150
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = rcsTankRadialLong
+	uid = 459431033
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 1.08143186569214,-1.39614105224609,1.0814323425293
+	rotation = -8.608234E-10,-0.9238796,-1.49099E-09,0.3826834
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 4
+	sym = 5
+	sym = 7
+	srfN = srfAttach, 0
+	mass = 0.15
+	temp = -41.02699
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = rcsTankRadialLong
+	modCost = -180
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 620
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 142.832400617793
+		maxAmount = 150
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = rcsTankRadialLong
+	uid = 375101411
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 1.08143210411072,-1.39614105224609,-1.08143174648285
+	rotation = -1.662983E-09,-0.3826835,-4.455954E-10,0.9238795
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 4
+	sym = 5
+	sym = 6
+	srfN = srfAttach, 0
+	mass = 0.15
+	temp = -40.87626
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = rcsTankRadialLong
+	modCost = -180
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 620
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 142.832400617793
+		maxAmount = 150
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = rcsTankRadialLong
+	uid = 424820565
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = -1.10118925571442,0.781158447265625,-1.10118973255157
+	rotation = 1.49099E-09,-0.3826834,-8.608233E-10,-0.9238796
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 9
+	sym = 10
+	sym = 11
+	srfN = srfAttach, 0
+	mass = 0.15
+	temp = -40.73471
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = rcsTankRadialLong
+	modCost = -180
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 620
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 142.832400617793
+		maxAmount = 150
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = rcsTankRadialLong
+	uid = 652055565
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = -1.10119032859802,0.781158447265625,1.10118925571442
+	rotation = 4.455954E-10,-0.9238795,-1.662983E-09,-0.3826835
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 8
+	sym = 10
+	sym = 11
+	srfN = srfAttach, 0
+	mass = 0.15
+	temp = -40.57244
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = rcsTankRadialLong
+	modCost = -180
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 620
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 142.832400617793
+		maxAmount = 150
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = rcsTankRadialLong
+	uid = 1350404651
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 1.10118961334229,0.781158447265625,1.10118925571442
+	rotation = -8.608234E-10,-0.9238796,-1.49099E-09,0.3826834
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 8
+	sym = 9
+	sym = 11
+	srfN = srfAttach, 0
+	mass = 0.15
+	temp = -40.41148
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = rcsTankRadialLong
+	modCost = -180
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 620
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 142.832400617793
+		maxAmount = 150
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = rcsTankRadialLong
+	uid = 3309703198
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 1.10118985176086,0.781158447265625,-1.10118973255157
+	rotation = -1.662983E-09,-0.3826835,-4.455954E-10,0.9238795
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 8
+	sym = 9
+	sym = 10
+	srfN = srfAttach, 0
+	mass = 0.15
+	temp = -40.25191
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = rcsTankRadialLong
+	modCost = -180
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 620
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 142.832400617793
+		maxAmount = 150
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = Size3SmallTank
+	uid = 8927631
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 0,-6.55999946594238,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 0
+	srfN = None, -1
+	attN = top, 0
+	attN = None, -1
+	mass = 2.5
+	temp = -40.19031
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = Size3SmallTank
+	modCost = -1652.4
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 3.75
+		currentScale = 3.75
+		defaultScale = 3.75
+		isFreeScale = False
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 5547.6
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 789.589654706145
+		maxAmount = 1620
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 965.053888762182
+		maxAmount = 1980
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = radialRCSTank
+	uid = 440047009
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = -1.47388029098511,-0.269100189208984,1.47388029098511
+	rotation = 5.276487E-09,-0.9238795,-9.139138E-09,-0.3826835
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 14
+	sym = 15
+	sym = 16
+	srfN = srfAttach, 0
+	mass = 0.075
+	temp = -40.10653
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = radialRCSTank
+	modCost = -48
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 352
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab (Key G)
+				category = Grab
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 32.8324006177929
+		maxAmount = 40
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = radialRCSTank
+	uid = 1966352663
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 1.47388076782227,-0.269100189208984,1.47388124465942
+	rotation = -2.731307E-09,-0.9238796,-1.019339E-08,0.3826834
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 13
+	sym = 15
+	sym = 16
+	srfN = srfAttach, 0
+	mass = 0.075
+	temp = -39.96448
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = radialRCSTank
+	modCost = -48
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 352
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab (Key G)
+				category = Grab
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 32.8324006177929
+		maxAmount = 40
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = radialRCSTank
+	uid = 2376062485
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 1.47388076782227,-0.269100189208984,-1.47388076782227
+	rotation = -9.139139E-09,-0.3826835,-5.276487E-09,0.9238796
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 13
+	sym = 14
+	sym = 16
+	srfN = srfAttach, 0
+	mass = 0.075
+	temp = -39.82361
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = radialRCSTank
+	modCost = -48
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 352
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab (Key G)
+				category = Grab
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 32.8324006177929
+		maxAmount = 40
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = radialRCSTank
+	uid = 3693183732
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = -1.47388029098511,-0.269100189208984,-1.47388076782227
+	rotation = -1.019339E-08,0.3826834,2.731307E-09,0.9238796
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 13
+	sym = 14
+	sym = 15
+	srfN = srfAttach, 0
+	mass = 0.075
+	temp = -39.68381
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = radialRCSTank
+	modCost = -48
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 352
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab (Key G)
+				category = Grab
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = MonoPropellant
+		amount = 32.8324006177929
+		maxAmount = 40
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = RCSBlock
+	uid = 824742382
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = -0.00074237585067749,-3.81101989746094,-1.86788070201874
+	rotation = 0,0.7071068,0,-0.7071068
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 18
+	sym = 19
+	sym = 20
+	srfN = srfAttach, 0
+	mass = 0.05
+	temp = -39.92308
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = RCSBlock
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 450
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab (Key G)
+				category = Grab
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	name = RCSBlock
+	uid = 2463074143
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = -1.86788129806519,-3.81101989746094,0.000742319971323013
+	rotation = 0,-8.42937E-08,0,-1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 17
+	sym = 19
+	sym = 20
+	srfN = srfAttach, 0
+	mass = 0.05
+	temp = -39.90026
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = RCSBlock
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 450
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab (Key G)
+				category = Grab
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	name = RCSBlock
+	uid = 2430658151
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 0.000742614269256592,-3.81101989746094,1.86788129806519
+	rotation = 0,-0.7071069,0,-0.7071067
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 17
+	sym = 18
+	sym = 20
+	srfN = srfAttach, 0
+	mass = 0.05
+	temp = -39.87783
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = RCSBlock
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 450
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab (Key G)
+				category = Grab
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	name = RCSBlock
+	uid = 258530765
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 1.86788070201874,-3.81101989746094,-0.000742547214031219
+	rotation = 0,-1,0,8.42937E-08
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 17
+	sym = 18
+	sym = 19
+	srfN = srfAttach, 0
+	mass = 0.05
+	temp = -39.8554
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = RCSBlock
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCS
+		isEnabled = True
+		isEnabled = True
+		EVENTS
+		{
+			Disable
+			{
+				active = True
+				guiActive = True
+				guiIcon = Disable RCS Port
+				guiName = Disable RCS Port
+				category = Disable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Enable
+			{
+				active = False
+				guiActive = True
+				guiIcon = Enable RCS Port
+				guiName = Enable RCS Port
+				category = Enable RCS Port
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 100
+		currentScale = 100
+		defaultScale = 100
+		isFreeScale = True
+		version = 1.33.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 450
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 25
+			maxValue = 400
+			incrementLarge = 37.5
+			incrementSmall = 3.75
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab (Key G)
+				category = Grab
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	name = largeSolarPanel
+	uid = 1285144898
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = -1.30412924289703,-3.85971832275391,-1.30412971973419
+	rotation = 4.04038E-09,0.3826835,-6.998136E-09,-0.9238795
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 22
+	sym = 23
+	sym = 24
+	srfN = srfAttach, 0
+	mass = 0.35
+	temp = -39.84516
+	expt = 0.5
+	state = 1
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = largeSolarPanel
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0.0803908, 0.08039287, -0.7025243, 0.7025197)
+		stateString = EXTENDED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		EVENTS
+		{
+			Extend
+			{
+				active = False
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 3000
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FNSolarPanelWasteHeatModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = WasteHeat
+		amount = 0
+		maxAmount = 1800
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = largeSolarPanel
+	uid = 1867471146
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = -1.30413031578064,-3.85971832275391,1.30412924289703
+	rotation = -2.09145E-09,-0.3826834,-7.80541E-09,-0.9238796
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 21
+	sym = 23
+	sym = 24
+	srfN = srfAttach, 0
+	mass = 0.35
+	temp = -39.82436
+	expt = 0.5
+	state = 1
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = largeSolarPanel
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0.7017663, 0.7017665, -0.08674093, 0.08674084)
+		stateString = EXTENDED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		EVENTS
+		{
+			Extend
+			{
+				active = False
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = True
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 3000
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FNSolarPanelWasteHeatModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = WasteHeat
+		amount = 0
+		maxAmount = 1800
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = largeSolarPanel
+	uid = 290313209
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 1.3041296005249,-3.85971832275391,1.30412924289703
+	rotation = -6.998137E-09,-0.9238796,-4.04038E-09,-0.3826835
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 21
+	sym = 22
+	sym = 24
+	srfN = srfAttach, 0
+	mass = 0.35
+	temp = -39.80377
+	expt = 0.5
+	state = 1
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = largeSolarPanel
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, -0.7071068, 0.7071068)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = False
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 3000
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FNSolarPanelWasteHeatModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = WasteHeat
+		amount = 0
+		maxAmount = 1800
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = largeSolarPanel
+	uid = 2971967322
+	mid = 1875170891
+	launchID = 1
+	parent = 0
+	position = 1.30412971973419,-3.85971832275391,-1.30412971973419
+	rotation = -7.80541E-09,-0.9238796,2.09145E-09,0.3826834
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	sym = 21
+	sym = 22
+	sym = 23
+	srfN = srfAttach, 0
+	mass = 0.35
+	temp = -39.78305
+	expt = 0.5
+	state = 1
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = largeSolarPanel
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableSolarPanel
+		isEnabled = True
+		currentRotation = (0, 0, -0.7071068, 0.7071068)
+		stateString = RETRACTED
+		storedAnimationTime = 0
+		storedAnimationSpeed = 1
+		EVENTS
+		{
+			Extend
+			{
+				active = True
+				guiActive = True
+				guiIcon = Extend Panels
+				guiName = Extend Panels
+				category = Extend Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+			Retract
+			{
+				active = False
+				guiActive = True
+				guiIcon = Retract Panels
+				guiName = Retract Panels
+				category = Retract Panels
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+			}
+			ExtendAction
+			{
+				actionGroup = None
+			}
+			RetractAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1
+		currentScale = 1
+		defaultScale = 1
+		isFreeScale = False
+		version = 1.33.0.0
+		defaultTransformScale = (1, 1, 1)
+		dryCost = 3000
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FNSolarPanelWasteHeatModule
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = WasteHeat
+		amount = 0
+		maxAmount = 1800
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		flowMode = Both
+	}
+}
+ACTIONGROUPS
+{
+	Stage = True, 67830112.058438
+	Gear = True, 0
+	Light = False, 0
+	RCS = True, 67831002.8686562
+	SAS = True, 67829670.7146178
+	Brakes = False, 0
+	Abort = False, 0
+	Custom01 = False, 0
+	Custom02 = False, 0
+	Custom03 = False, 0
+	Custom04 = False, 0
+	Custom05 = False, 0
+	Custom06 = False, 0
+	Custom07 = False, 0
+	Custom08 = False, 0
+	Custom09 = False, 0
+	Custom10 = False, 0
+}
+DISCOVERY
+{
+	state = -1
+	lastObservedTime = 0
+	lifetime = Infinity
+	refTime = Infinity
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+TARGET
+{
+	type = Vessel
+	vesselID = 3dda09c7-14cb-455f-8836-1e032af4e104
+}
+CTRLSTATE
+{
+	pitch = 0.04978216
+	yaw = 0.05589816
+	roll = 0.0001199796
+	trimPitch = 0
+	trimYaw = -0.048
+	trimRoll = 0
+	mainThrottle = 0
+}

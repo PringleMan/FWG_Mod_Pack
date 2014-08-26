@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <rect name="MainWindowRect">
+        <xmin>65</xmin>
+        <xmax>565</xmax>
+        <ymin>297</ymin>
+        <ymax>697</ymax>
+    </rect>
+    <bool name="IsMainWindowVisible">0</bool>
+    <bool name="IsRecapWindowVisible">0</bool>
+</config>

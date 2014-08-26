@@ -1,0 +1,75 @@
+pid = bc7e26f202bb4250bc4767f4248cf636
+name = Ast. BWM-185
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67828006.4064172
+lct = 67828006.4064172
+root = 0
+lat = 0.34085919686818
+lon = 340.082171964514
+alt = 17588570270.6852
+hgt = -1
+nrm = 0,1,0
+rot = -0.6211306,0.513319,0.2596921,0.5322222
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15852579380.1475
+	ECC = 0.146278333554852
+	INC = 0.481253253637205
+	LPE = 198.596822115846
+	LAN = 298.326856647229
+	MNA = 6.06754297401164
+	EPH = 72102844.3580773
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1354502191
+	mid = 1354502191
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67828006.4064172
+	lifetime = 290631.314849854
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

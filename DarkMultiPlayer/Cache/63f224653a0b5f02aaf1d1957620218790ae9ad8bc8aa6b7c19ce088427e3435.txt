@@ -1,0 +1,75 @@
+pid = e67c17bacff9441ca5931108558f3cc7
+name = Ast. ZCS-780
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67828034.9550498
+lct = 67828034.9550498
+root = 0
+lat = -1.78707778311443
+lon = 309.188643258598
+alt = 14070816941.9479
+hgt = -1
+nrm = 0,1,0
+rot = -0.538412,-0.1609665,-0.8052053,0.1893327
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14696798031.9776
+	ECC = 0.0764570257156712
+	INC = 1.79254177499624
+	LPE = 349.752574049532
+	LAN = 38.0623282334767
+	MNA = 0.252093331499042
+	EPH = 70165224.7621787
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1904256434
+	mid = 1904256434
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67828034.9550498
+	lifetime = 488400.238037109
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

@@ -1,0 +1,1355 @@
+pid = b914fae2ad584505b42230b18eb34d4a
+name = Minmus Maxmus Debris
+type = Debris
+sit = FLYING
+landed = False
+landedAt = 
+splashed = False
+met = 1.49999968707561
+lct = 67919073.1619571
+root = 0
+lat = -0.0881664502145708
+lon = 285.45353148637
+alt = 2080.95635975234
+hgt = 2013.116
+nrm = 0.8729106,-0.4821417,0.07461005
+rot = 0.5867366,0.3835396,-0.1656767,0.6936778
+CoM = -0.07241824,0.1578307,-0.0003513824
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+cPch = 0
+cHdg = 0
+cMod = -1
+ORBIT
+{
+	SMA = 303204.123956473
+	ECC = 0.992174548063763
+	INC = 4.949576639085
+	LPE = 179.388126286528
+	LAN = 165.660710516289
+	MNA = 2.91483653301324
+	EPH = 67919074.6819568
+	REF = 1
+}
+PART
+{
+	name = fuelTank
+	uid = 3255940395
+	mid = 720465576
+	launchID = 6
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 1
+	srfN = None, -1
+	attN = top, 1
+	attN = None, -1
+	mass = 0.25
+	temp = 15.94732
+	expt = 0.5
+	state = 1
+	connected = False
+	attached = False
+	flag = Squad/Flags/default
+	rTrf = fuelTank
+	modCost = -183.6
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = TweakScale
+		isEnabled = True
+		tweakScale = 1.25
+		currentScale = 1.25
+		defaultScale = 1.25
+		isFreeScale = False
+		version = 1.33.0.0
+		defaultTransformScale = (1.25, 1.25, 1.25)
+		dryCost = 666.4
+		tweakScale_UIEditor
+		{
+			controlEnabled = True
+			minValue = 0.625
+			maxValue = 5
+			incrementLarge = 1.25
+			incrementSmall = 0.125
+			incrementSlide = 0.001
+		}
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 110.599395057962
+		maxAmount = 180
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 135.177034318646
+		maxAmount = 220
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		flowMode = Both
+	}
+}
+PART
+{
+	name = RC.cone
+	uid = 865032962
+	mid = 720465576
+	launchID = 6
+	parent = 0
+	position = 0,0.988738059997559,0
+	rotation = 0,1,0,4.371139E-08
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 6
+	attm = 0
+	srfN = None, -1
+	attN = bottom, 0
+	mass = 0.1938827
+	temp = 14.42426
+	expt = 0.5
+	state = 0
+	connected = False
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = RC.cone
+	modCost = 547.5
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = RealChuteModule
+		isEnabled = True
+		caseMass = 0.08
+		cutSpeed = 0.5
+		timer = 0
+		mustGoDown = True
+		deployOnGround = False
+		spareChutes = 5
+		initiated = True
+		capOff = False
+		wait = True
+		armed = False
+		oneWasDeployed = False
+		staged = False
+		launched = False
+		baseDrag = 0.32
+		chuteCount = 5
+		EVENTS
+		{
+			GUIDeploy
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy Chute
+				guiName = Deploy Chute
+				category = Deploy Chute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUICut
+			{
+				active = False
+				guiActive = True
+				guiIcon = Cut main chute
+				guiName = Cut chute
+				category = Cut main chute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIArm
+			{
+				active = True
+				guiActive = True
+				guiIcon = Arm parachute
+				guiName = Arm parachute
+				category = Arm parachute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIDisarm
+			{
+				active = True
+				guiActive = False
+				guiIcon = Disarm parachute
+				guiName = Disarm parachute
+				category = Disarm parachute
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIRepack
+			{
+				active = True
+				guiActive = False
+				guiIcon = Repack chute
+				guiName = Repack chute
+				category = Repack chute
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIToggleWindow
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Toggle info
+				guiName = Toggle info
+				category = Toggle info
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionDeploy
+			{
+				actionGroup = None
+			}
+			ActionCut
+			{
+				actionGroup = None
+			}
+			ActionArm
+			{
+				actionGroup = None
+			}
+			ActionDisarm
+			{
+				actionGroup = None
+			}
+		}
+		PARACHUTE
+		{
+			material = Nylon
+			preDeployedDiameter = 2.5
+			deployedDiameter = 50
+			minIsPressure = False
+			minDeployment = 25000
+			minPressure = 0.01
+			deploymentAlt = 700
+			cutAlt = -1
+			preDeploymentSpeed = 2
+			deploymentSpeed = 6
+			parachuteName = RC_triple_canopy
+			baseParachuteName = RC_triple_canopy
+			capName = cone
+			preDeploymentAnimation = RC_triple_chute_semi_deploy
+			deploymentAnimation = RC_triple_chute_full_deploy
+			forcedOrientation = 0
+			depState = STOWED
+		}
+	}
+	MODULE
+	{
+		name = ProceduralChute
+		isEnabled = True
+		caseID = 0
+		lastCaseID = 0
+		size = 0
+		lastSize = 0
+		planets = 0
+		presetID = 0
+		originalSize = (1, 1, 1)
+		top = 0
+		bottom = -0.023045
+		debut = 1
+		initiated = True
+		mustGoDown = True
+		deployOnGround = False
+		secondaryChute = False
+		timer = 0s
+		cutSpeed = 0.5
+		spares = 5
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		CHUTE
+		{
+			chuteID = 0
+			modelID = 1
+			typeID = 0
+			lastTypeID = 0
+			position = (-8.5, 0.0, 6.3)
+			isPressure = False
+			calcSelect = True
+			getMass = True
+			useDry = True
+			preDepDiam = 2.5
+			depDiam = 50
+			predepClause = 25000
+			mass = 10
+			landingSpeed = 6
+			deceleration = 10
+			refDepAlt = 700
+			chuteCount = 1
+			deploymentAlt = 700
+			cutAlt = 
+			preDepSpeed = 2
+			depSpeed = 6
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	name = parachuteRadial
+	uid = 866647487
+	mid = 720465576
+	launchID = 6
+	parent = 0
+	position = -0.620332002639771,0.41561222076416,-7.40401446819305E-08
+	rotation = 0,-0.7071068,0,-0.7071068
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 10
+	attm = 1
+	srfN = srfAttach, 0
+	mass = 0.09316485
+	temp = 14.41964
+	expt = 0.5
+	state = 0
+	connected = False
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = parachuteRadial
+	modCost = 17
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = RealChuteModule
+		isEnabled = True
+		caseMass = 0.08
+		cutSpeed = 0.5
+		timer = 0
+		mustGoDown = False
+		deployOnGround = False
+		spareChutes = 5
+		initiated = True
+		capOff = False
+		wait = True
+		armed = False
+		oneWasDeployed = False
+		staged = False
+		launched = False
+		baseDrag = 0.32
+		chuteCount = 5
+		EVENTS
+		{
+			GUIDeploy
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy Chute
+				guiName = Deploy Chute
+				category = Deploy Chute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUICut
+			{
+				active = False
+				guiActive = True
+				guiIcon = Cut main chute
+				guiName = Cut chute
+				category = Cut main chute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIArm
+			{
+				active = True
+				guiActive = True
+				guiIcon = Arm parachute
+				guiName = Arm parachute
+				category = Arm parachute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIDisarm
+			{
+				active = True
+				guiActive = False
+				guiIcon = Disarm parachute
+				guiName = Disarm parachute
+				category = Disarm parachute
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIRepack
+			{
+				active = True
+				guiActive = False
+				guiIcon = Repack chute
+				guiName = Repack chute
+				category = Repack chute
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIToggleWindow
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Toggle info
+				guiName = Toggle info
+				category = Toggle info
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionDeploy
+			{
+				actionGroup = None
+			}
+			ActionCut
+			{
+				actionGroup = None
+			}
+			ActionArm
+			{
+				actionGroup = None
+			}
+			ActionDisarm
+			{
+				actionGroup = None
+			}
+		}
+		PARACHUTE
+		{
+			material = Nylon
+			preDeployedDiameter = 0.7
+			deployedDiameter = 17
+			minIsPressure = True
+			minDeployment = 25000
+			minPressure = 0.01
+			deploymentAlt = 700
+			cutAlt = -1
+			preDeploymentSpeed = 2
+			deploymentSpeed = 6
+			parachuteName = RC_canopy
+			baseParachuteName = canopy
+			capName = cap
+			preDeploymentAnimation = RC_chute_semi_deploy
+			deploymentAnimation = RC_chute_full_deploy
+			forcedOrientation = 0
+			depState = STOWED
+		}
+	}
+	MODULE
+	{
+		name = ProceduralChute
+		isEnabled = True
+		caseID = 0
+		lastCaseID = 0
+		size = 0
+		lastSize = 0
+		planets = 0
+		presetID = 0
+		originalSize = (1, 1, 1)
+		top = 0
+		bottom = 0
+		debut = 1
+		initiated = True
+		mustGoDown = False
+		deployOnGround = False
+		secondaryChute = False
+		timer = 0s
+		cutSpeed = 0.5
+		spares = 5
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		CHUTE
+		{
+			chuteID = 0
+			modelID = 0
+			typeID = 0
+			lastTypeID = 0
+			position = (-7.5, 0.0, 6.6)
+			isPressure = True
+			calcSelect = True
+			getMass = True
+			useDry = True
+			preDepDiam = 0.7
+			depDiam = 17
+			predepClause = 0.01
+			mass = 10
+			landingSpeed = 6
+			deceleration = 10
+			refDepAlt = 700
+			chuteCount = 1
+			deploymentAlt = 700
+			cutAlt = 
+			preDepSpeed = 2
+			depSpeed = 6
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab (Key G)
+				category = Grab
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	name = parachuteRadial
+	uid = 506200619
+	mid = 720465576
+	launchID = 6
+	parent = 0
+	position = -0.453120946884155,0.412205696105957,-0.453121185302734
+	rotation = 8.904122E-08,0.3826834,-2.385848E-08,0.9238796
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 14
+	attm = 1
+	srfN = srfAttach, 0
+	mass = 0.09316485
+	temp = 14.3967
+	expt = 0.5
+	state = 0
+	connected = False
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = parachuteRadial
+	modCost = 17
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = RealChuteModule
+		isEnabled = True
+		caseMass = 0.08
+		cutSpeed = 0.5
+		timer = 0
+		mustGoDown = False
+		deployOnGround = False
+		spareChutes = 5
+		initiated = True
+		capOff = False
+		wait = True
+		armed = False
+		oneWasDeployed = False
+		staged = False
+		launched = False
+		baseDrag = 0.32
+		chuteCount = 5
+		EVENTS
+		{
+			GUIDeploy
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy Chute
+				guiName = Deploy Chute
+				category = Deploy Chute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUICut
+			{
+				active = False
+				guiActive = True
+				guiIcon = Cut main chute
+				guiName = Cut chute
+				category = Cut main chute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIArm
+			{
+				active = True
+				guiActive = True
+				guiIcon = Arm parachute
+				guiName = Arm parachute
+				category = Arm parachute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIDisarm
+			{
+				active = True
+				guiActive = False
+				guiIcon = Disarm parachute
+				guiName = Disarm parachute
+				category = Disarm parachute
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIRepack
+			{
+				active = True
+				guiActive = False
+				guiIcon = Repack chute
+				guiName = Repack chute
+				category = Repack chute
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIToggleWindow
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Toggle info
+				guiName = Toggle info
+				category = Toggle info
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionDeploy
+			{
+				actionGroup = None
+			}
+			ActionCut
+			{
+				actionGroup = None
+			}
+			ActionArm
+			{
+				actionGroup = None
+			}
+			ActionDisarm
+			{
+				actionGroup = None
+			}
+		}
+		PARACHUTE
+		{
+			material = Nylon
+			preDeployedDiameter = 0.7
+			deployedDiameter = 17
+			minIsPressure = True
+			minDeployment = 25000
+			minPressure = 0.01
+			deploymentAlt = 700
+			cutAlt = -1
+			preDeploymentSpeed = 2
+			deploymentSpeed = 6
+			parachuteName = RC_canopy
+			baseParachuteName = canopy
+			capName = cap
+			preDeploymentAnimation = RC_chute_semi_deploy
+			deploymentAnimation = RC_chute_full_deploy
+			forcedOrientation = 0
+			depState = STOWED
+		}
+	}
+	MODULE
+	{
+		name = ProceduralChute
+		isEnabled = True
+		caseID = 0
+		lastCaseID = 0
+		size = 0
+		lastSize = 0
+		planets = 0
+		presetID = 0
+		originalSize = (1, 1, 1)
+		top = 0
+		bottom = 0
+		debut = 1
+		initiated = True
+		mustGoDown = False
+		deployOnGround = False
+		secondaryChute = False
+		timer = 0s
+		cutSpeed = 0.5
+		spares = 5
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		CHUTE
+		{
+			chuteID = 0
+			modelID = 0
+			typeID = 0
+			lastTypeID = 0
+			position = (-7.6, -0.5, 6.4)
+			isPressure = True
+			calcSelect = True
+			getMass = True
+			useDry = True
+			preDepDiam = 0.7
+			depDiam = 17
+			predepClause = 0.01
+			mass = 10
+			landingSpeed = 6
+			deceleration = 10
+			refDepAlt = 700
+			chuteCount = 1
+			deploymentAlt = 700
+			cutAlt = 
+			preDepSpeed = 2
+			depSpeed = 6
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab (Key G)
+				category = Grab
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	name = parachuteRadial
+	uid = 2994728863
+	mid = 720465576
+	launchID = 6
+	parent = 0
+	position = -0.445865988731384,0.422052383422852,0.445865333080292
+	rotation = 2.385858E-08,-0.9238796,-8.904144E-08,-0.3826834
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 18
+	attm = 1
+	srfN = srfAttach, 0
+	mass = 0.09316485
+	temp = 14.3749
+	expt = 0.5
+	state = 0
+	connected = False
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = parachuteRadial
+	modCost = 17
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		EVENTS
+		{
+			RunTestEvent
+			{
+				active = False
+				guiActive = True
+				guiIcon = Run Test
+				guiName = Run Test
+				category = Run Test
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = RealChuteModule
+		isEnabled = True
+		caseMass = 0.08
+		cutSpeed = 0.5
+		timer = 0
+		mustGoDown = False
+		deployOnGround = False
+		spareChutes = 5
+		initiated = True
+		capOff = False
+		wait = True
+		armed = False
+		oneWasDeployed = False
+		staged = False
+		launched = False
+		baseDrag = 0.32
+		chuteCount = 5
+		EVENTS
+		{
+			GUIDeploy
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy Chute
+				guiName = Deploy Chute
+				category = Deploy Chute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUICut
+			{
+				active = False
+				guiActive = True
+				guiIcon = Cut main chute
+				guiName = Cut chute
+				category = Cut main chute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIArm
+			{
+				active = True
+				guiActive = True
+				guiIcon = Arm parachute
+				guiName = Arm parachute
+				category = Arm parachute
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIDisarm
+			{
+				active = True
+				guiActive = False
+				guiIcon = Disarm parachute
+				guiName = Disarm parachute
+				category = Disarm parachute
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIRepack
+			{
+				active = True
+				guiActive = False
+				guiIcon = Repack chute
+				guiName = Repack chute
+				category = Repack chute
+				guiActiveUnfocused = False
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			GUIToggleWindow
+			{
+				active = True
+				guiActive = True
+				guiActiveEditor = True
+				guiIcon = Toggle info
+				guiName = Toggle info
+				category = Toggle info
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ActionDeploy
+			{
+				actionGroup = None
+			}
+			ActionCut
+			{
+				actionGroup = None
+			}
+			ActionArm
+			{
+				actionGroup = None
+			}
+			ActionDisarm
+			{
+				actionGroup = None
+			}
+		}
+		PARACHUTE
+		{
+			material = Nylon
+			preDeployedDiameter = 0.7
+			deployedDiameter = 17
+			minIsPressure = True
+			minDeployment = 25000
+			minPressure = 0.01
+			deploymentAlt = 700
+			cutAlt = -1
+			preDeploymentSpeed = 2
+			deploymentSpeed = 6
+			parachuteName = RC_canopy
+			baseParachuteName = canopy
+			capName = cap
+			preDeploymentAnimation = RC_chute_semi_deploy
+			deploymentAnimation = RC_chute_full_deploy
+			forcedOrientation = 0
+			depState = STOWED
+		}
+	}
+	MODULE
+	{
+		name = ProceduralChute
+		isEnabled = True
+		caseID = 0
+		lastCaseID = 0
+		size = 0
+		lastSize = 0
+		planets = 0
+		presetID = 0
+		originalSize = (1, 1, 1)
+		top = 0
+		bottom = 0
+		debut = 1
+		initiated = True
+		mustGoDown = False
+		deployOnGround = False
+		secondaryChute = False
+		timer = 0s
+		cutSpeed = 0.5
+		spares = 5
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		CHUTE
+		{
+			chuteID = 0
+			modelID = 0
+			typeID = 0
+			lastTypeID = 0
+			position = (-7.6, 0.5, 6.4)
+			isPressure = True
+			calcSelect = True
+			getMass = True
+			useDry = True
+			preDepDiam = 0.7
+			depDiam = 17
+			predepClause = 0.01
+			mass = 10
+			landingSpeed = 6
+			deceleration = 10
+			refDepAlt = 700
+			chuteCount = 1
+			deploymentAlt = 700
+			cutAlt = 
+			preDepSpeed = 2
+			depSpeed = 6
+		}
+	}
+	MODULE
+	{
+		name = KASModuleGrab
+		isEnabled = True
+		grabbed = False
+		evaHolderVesselName = 
+		EVENTS
+		{
+			ContextMenuGrab
+			{
+				active = True
+				guiActive = False
+				guiIcon = Grab
+				guiName = Grab (Key G)
+				category = Grab
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuDrop
+			{
+				active = True
+				guiActive = False
+				guiIcon = Drop
+				guiName = Drop
+				category = Drop
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ContextMenuEvaAttach
+			{
+				active = True
+				guiActive = False
+				guiIcon = Attach
+				guiName = Attach
+				category = Attach
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+ACTIONGROUPS
+{
+	Stage = True, 67919061.7219595
+	Gear = True, 0
+	Light = False, 0
+	RCS = False, 0
+	SAS = True, 67919055.6819608
+	Brakes = False, 0
+	Abort = False, 0
+	Custom01 = False, 0
+	Custom02 = False, 0
+	Custom03 = False, 0
+	Custom04 = False, 0
+	Custom05 = False, 0
+	Custom06 = False, 0
+	Custom07 = False, 0
+	Custom08 = False, 0
+	Custom09 = False, 0
+	Custom10 = False, 0
+}
+DISCOVERY
+{
+	state = -1
+	lastObservedTime = 0
+	lifetime = Infinity
+	refTime = Infinity
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+	pitch = 0
+	yaw = 0
+	roll = 0
+	trimPitch = 0
+	trimYaw = 0
+	trimRoll = 0
+	mainThrottle = 1
+}

@@ -20,27 +20,27 @@ toolbars
 	{
 		toolbar_291201380
 		{
-			x = 300
-			y = 300
+			x = 1104
+			y = -3
 			width = 250
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = 
+			visibleButtons = AntennaRange.ARConfiguration,ResourceManifest.ResourceManifest,StageRecovery.MainButton
 		}
 		toolbar_54556368
 		{
-			x = 300
-			y = 300
+			x = 1123
+			y = 10
 			width = 250
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = 
+			visibleButtons = interstellar.mega_button,interstellar.thermal_button,RCSBuildAid.mainButton
 		}
 		toolbar_523221639
 		{
@@ -88,13 +88,13 @@ toolbars
 		{
 			x = 965
 			y = 8
-			width = 182
+			width = 221
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = MechJeb2.Orbit_Info,ResourceManifest.ResourceManifest,SCANsat.UIMenu,Tac.LS,KolonyTools.OrbLogButton
+			visibleButtons = MechJeb2.Orbit_Info,ResourceManifest.ResourceManifest,SCANsat.UIMenu,Tac.LS,KolonyTools.OrbLogButton,AGM.AGMMainSwitch
 		}
 	}
 	FLIGHTMAP
@@ -116,15 +116,15 @@ toolbars
 	{
 		toolbar_54556368
 		{
-			x = 300
-			y = 300
+			x = 1123
+			y = 10
 			width = 250
 			height = 38
 			autoHide = False
 			drawBorder = True
 			useKSPSkin = False
 			buttonOrder = 
-			visibleButtons = 
+			visibleButtons = interstellar.mega_button,interstellar.thermal_button,RCSBuildAid.mainButton
 		}
 	}
 	SPH

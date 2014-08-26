@@ -1,0 +1,75 @@
+pid = df6e0d67378445348c3f33e5314e5679
+name = Ast. BJJ-052
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67828011.4129366
+lct = 67828011.4129366
+root = 0
+lat = -0.837669431683839
+lon = 315.126911477399
+alt = 14561406497.3125
+hgt = -1
+nrm = 0,1,0
+rot = -0.6013208,-0.4135688,-0.6679054,0.1458646
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14400776057.0387
+	ECC = 0.0565331356265737
+	INC = 0.913019380469296
+	LPE = 10.5317828727237
+	LAN = 71.9081403826993
+	MNA = 6.08703255113636
+	EPH = 70815161.950046
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 702032251
+	mid = 702032251
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67828011.4129366
+	lifetime = 415317.727661133
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

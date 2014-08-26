@@ -1,0 +1,75 @@
+pid = 0bb4001670a84843a5ebf25f45c42428
+name = Ast. KFX-996
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67856330.4363201
+lct = 67856330.4363201
+root = 0
+lat = -1.44508762179111
+lon = -75.1098110984205
+alt = 13803337150.878
+hgt = -1
+nrm = 0,1,0
+rot = -0.4340156,-0.1480779,-0.6057804,0.6501797
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14293997204.4085
+	ECC = 0.0586308205398494
+	INC = 1.50375557003944
+	LPE = 331.342057498215
+	LAN = 57.8929875870651
+	MNA = 0.584914927187261
+	EPH = 70732839.6404217
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 378484606
+	mid = 378484606
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67856330.4363201
+	lifetime = 134861.458969116
+	refTime = 1728000
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

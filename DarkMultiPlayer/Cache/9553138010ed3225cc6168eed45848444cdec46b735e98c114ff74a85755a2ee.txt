@@ -1,0 +1,75 @@
+pid = 06ee8f3b36634ebb91998e74644c25c1
+name = Ast. XOY-479
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67828080.5509565
+lct = 67828080.5509565
+root = 0
+lat = -0.913318854761151
+lon = 314.347493137394
+alt = 14788384904.85
+hgt = -1
+nrm = 0,1,0
+rot = -0.3499066,0.8536022,0.2780595,0.2676031
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14485377600.5968
+	ECC = 0.0682775253758638
+	INC = 2.12150538055487
+	LPE = 333.469105503735
+	LAN = 112.207945005581
+	MNA = 0.360762838605881
+	EPH = 71826220.2482221
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1714607697
+	mid = 1714607697
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67828080.5509565
+	lifetime = 240540.703582764
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

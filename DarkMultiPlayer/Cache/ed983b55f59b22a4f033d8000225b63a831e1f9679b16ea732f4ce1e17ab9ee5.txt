@@ -1,0 +1,75 @@
+pid = 2f6634572cd04abca4ccfb9a3c0c101c
+name = Ast. EEQ-024
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67856305.3963254
+lct = 67856305.3963254
+root = 0
+lat = -1.05668832894042
+lon = -69.4322260564344
+alt = 15078735389.0556
+hgt = -1
+nrm = 0,1,0
+rot = -0.4460749,0.4424267,0.5622554,0.5377217
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15414529572.8453
+	ECC = 0.119648430614555
+	INC = 1.09270878477939
+	LPE = 349.825842477692
+	LAN = 62.2429715034177
+	MNA = 6.17816545361006
+	EPH = 70164691.0286496
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 874894315
+	mid = 874894315
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67856305.3963254
+	lifetime = 195480.992889404
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

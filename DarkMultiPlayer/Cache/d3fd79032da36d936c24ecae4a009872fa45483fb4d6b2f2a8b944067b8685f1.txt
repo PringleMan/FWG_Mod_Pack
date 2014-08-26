@@ -1,0 +1,75 @@
+pid = 5815a628b3a447ac94e6c6e840a73613
+name = Ast. RSS-793
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67828055.2028162
+lct = 67828055.2028162
+root = 0
+lat = -0.362710744109901
+lon = 317.925768763989
+alt = 14304134571.0497
+hgt = -1
+nrm = 0,1,0
+rot = -0.04042545,-0.8490509,-0.3951033,0.3483842
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14065724022.2677
+	ECC = 0.035954650219643
+	INC = 0.566390929966556
+	LPE = 31.5011418390178
+	LAN = 101.455719455341
+	MNA = 0.0829512326180615
+	EPH = 72555903.5182458
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 247854419
+	mid = 247854419
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67828055.2028162
+	lifetime = 1706230.92041016
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

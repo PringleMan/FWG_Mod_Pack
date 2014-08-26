@@ -1,0 +1,75 @@
+pid = 2fce069d5dba47478d2da634b14cce18
+name = Ast. DBC-108
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67856372.6587414
+lct = 67856372.6587414
+root = 0
+lat = -0.177158439066669
+lon = -64.8038791111581
+alt = 14827404665.002
+hgt = -1
+nrm = 0,1,0
+rot = 0.2631319,-0.5552658,-0.6200983,0.4877701
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14458157085.0099
+	ECC = 0.0588041913862846
+	INC = 0.69198383370672
+	LPE = 334.948173517048
+	LAN = 127.340273265756
+	MNA = 0.341431050428916
+	EPH = 72205771.4136242
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 2088753787
+	mid = 2088753787
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67856372.6587414
+	lifetime = 1279626.14135742
+	refTime = 1728000
+	size = 4
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

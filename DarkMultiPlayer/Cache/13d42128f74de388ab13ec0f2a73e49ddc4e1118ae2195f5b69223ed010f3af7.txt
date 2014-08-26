@@ -1,0 +1,75 @@
+pid = c1e84274bf2241ad8fcc7fd154fbec0c
+name = Ast. SVW-986
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67828065.270392
+lct = 67828065.270392
+root = 0
+lat = -0.352838293583153
+lon = 311.630878280551
+alt = 15381254286.2639
+hgt = -1
+nrm = 0,1,0
+rot = -0.276325,0.7367256,0.4837905,0.3831795
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 16610215354.9967
+	ECC = 0.180081048686415
+	INC = 0.372610994386498
+	LPE = 9.99542457360313
+	LAN = 26.2313455217845
+	MNA = 6.22532755645126
+	EPH = 69831324.0411439
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1435851090
+	mid = 1435851090
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67828065.270392
+	lifetime = 319333.955383301
+	refTime = 1728000
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

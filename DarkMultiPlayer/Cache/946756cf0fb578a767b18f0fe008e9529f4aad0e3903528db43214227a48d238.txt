@@ -1,0 +1,75 @@
+pid = 87a368db14f24481b58c4370dcb54d47
+name = Ast. MSI-685
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67828070.3546829
+lct = 67828070.3546829
+root = 0
+lat = -1.97686472173516
+lon = 311.873594281512
+alt = 14003890329.2118
+hgt = -1
+nrm = 0,1,0
+rot = -0.6602851,0.3078218,-0.1915056,0.6577196
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 14096224712.5209
+	ECC = 0.0361943460706511
+	INC = 2.01458400858409
+	LPE = 10.2183258136304
+	LAN = 56.3326505397596
+	MNA = 6.14999263746664
+	EPH = 70520128.0634231
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1195144753
+	mid = 1195144753
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67828070.3546829
+	lifetime = 739997.836303711
+	refTime = 1728000
+	size = 1
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

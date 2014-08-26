@@ -1,0 +1,216 @@
+pid = b23c845dd9ea44bb8f7fa550b621a000
+name = PrC.Landing While Drunk is Hard
+type = Flag
+sit = LANDED
+landed = True
+landedAt = 
+splashed = False
+met = 318.706184644252
+lct = 18951825.6441991
+root = 0
+lat = 7.38822965470374
+lon = 20.8341560986554
+alt = 1830.89220363557
+hgt = 0.3487362
+nrm = 0.06699416,0.997667,-0.0131334
+rot = 0.6259534,0.5686483,-0.2262793,0.4833419
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+cPch = 0
+cHdg = 0
+cMod = 0
+ORBIT
+{
+	SMA = 100928.24860548
+	ECC = 0.999746304847659
+	INC = 7.38822956846535
+	LPE = 270
+	LAN = 291.042289433484
+	MNA = 3.14159265358979
+	EPH = 18952144.3503837
+	REF = 2
+}
+PART
+{
+	name = flag
+	uid = 3553504398
+	mid = 2067795781
+	launchID = 3
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = -1
+	sidx = -1
+	attm = 0
+	srfN = None, -1
+	mass = 0.01
+	temp = -29.61181
+	expt = 0.5
+	state = 0
+	connected = True
+	attached = True
+	flag = Squad/Flags/default
+	rTrf = flag (PrC.Landing While Drunk is Hard)
+	modCost = 0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = FlagSite
+		isEnabled = True
+		placedBy = Gilwise Kerman
+		PlaqueText = Really hard, but I made it damnit!
+		state = Placed
+		EVENTS
+		{
+			TakeDown
+			{
+				active = True
+				guiActive = False
+				guiIcon = Take Down
+				guiName = Take Down
+				category = Take Down
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			PickUp
+			{
+				active = False
+				guiActive = False
+				guiIcon = Pick Up
+				guiName = Pick Up
+				category = Pick Up
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ReadPlaque
+			{
+				active = True
+				guiActive = False
+				guiIcon = Read Plaque
+				guiName = Read Plaque
+				category = Read Plaque
+				guiActiveUnfocused = True
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FlagDecal
+		isEnabled = True
+		flagDisplayed = True
+		EVENTS
+		{
+			ToggleFlag
+			{
+				active = True
+				guiActive = False
+				guiActiveEditor = True
+				guiIcon = ToggleFlag
+				guiName = ToggleFlag
+				category = ToggleFlag
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARBasicDragModel
+		isEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		adjustCollider = 0
+		crashTolerance = 8
+		damage = 0
+		dead = False
+		EVENTS
+		{
+			RepairDamage
+			{
+				active = True
+				guiActive = False
+				guiIcon = No Damage
+				guiName = No Damage
+				category = No Damage
+				guiActiveUnfocused = True
+				unfocusedRange = 4
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+ACTIONGROUPS
+{
+	Stage = False, 0
+	Gear = True, 0
+	Light = False, 0
+	RCS = False, 0
+	SAS = False, 0
+	Brakes = False, 0
+	Abort = False, 0
+	Custom01 = False, 0
+	Custom02 = False, 0
+	Custom03 = False, 0
+	Custom04 = False, 0
+	Custom05 = False, 0
+	Custom06 = False, 0
+	Custom07 = False, 0
+	Custom08 = False, 0
+	Custom09 = False, 0
+	Custom10 = False, 0
+}
+DISCOVERY
+{
+	state = -1
+	lastObservedTime = 0
+	lifetime = Infinity
+	refTime = Infinity
+	size = 2
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+	pitch = 0
+	yaw = 0
+	roll = 0
+	trimPitch = 0
+	trimYaw = 0
+	trimRoll = 0
+	mainThrottle = 0
+}

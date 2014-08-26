@@ -1,0 +1,75 @@
+pid = 95c092e57f1c4863bedc8c72903dc5e7
+name = Ast. EDS-666
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67826858.3310264
+lct = 67826858.3310264
+root = 0
+lat = 0.321856379436506
+lon = 336.796958335837
+alt = 16906582614.4692
+hgt = -1
+nrm = 0,1,0
+rot = -0.3918125,-0.5428924,0.6605518,0.3397382
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 15459401570.4023
+	ECC = 0.122376536689745
+	INC = 1.68268248841666
+	LPE = 168.475146380641
+	LAN = 328.133548993963
+	MNA = 0.0406856548970414
+	EPH = 72595553.7045615
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1854376287
+	mid = 1854376287
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67826858.3310264
+	lifetime = 1187941.5802002
+	refTime = 1728000
+	size = 3
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}

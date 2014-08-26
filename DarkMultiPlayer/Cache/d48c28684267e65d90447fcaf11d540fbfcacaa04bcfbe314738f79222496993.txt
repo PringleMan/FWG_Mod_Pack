@@ -1,0 +1,75 @@
+pid = 5cd12e18d9564d85bbe2157144d0dba1
+name = Ast. FMB-083
+type = SpaceObject
+sit = ORBITING
+landed = False
+landedAt = 
+splashed = False
+met = 67826767.3481449
+lct = 67826767.3481449
+root = 0
+lat = 0.0335124713641371
+lon = 314.280323850852
+alt = 13511624910.8784
+hgt = -1
+nrm = 0,1,0
+rot = -0.7113914,0.6158503,0.178854,0.2875102
+CoM = 0,0,0
+stg = 0
+prst = False
+ref = 0
+ctrl = False
+ORBIT
+{
+	SMA = 13677578870.2251
+	ECC = 0.011737963069012
+	INC = 0.141685656619623
+	LPE = 246.577155112435
+	LAN = 302.904827555946
+	MNA = 5.23652476970607
+	EPH = 72313464.6625981
+	REF = 0
+}
+PART
+{
+	name = PotatoRoid
+	uid = 1144166785
+	mid = 1144166785
+	launchID = 0
+	parent = 0
+	position = 0,0,0
+	rotation = 0,0,0,1
+	mirror = 1,1,1
+	istg = 0
+	dstg = 0
+	sqor = 0
+	sidx = 0
+	attm = 0
+	srfN = None, -1
+	mass = 150
+	temp = -1
+	expt = 0.1
+	state = 1
+	connected = True
+	attached = True
+	flag = 
+	rTrf = 
+	modCost = 0
+}
+ACTIONGROUPS
+{
+}
+DISCOVERY
+{
+	state = 1
+	lastObservedTime = 67826767.3481449
+	lifetime = 445810.185241699
+	refTime = 1728000
+	size = 0
+}
+FLIGHTPLAN
+{
+}
+CTRLSTATE
+{
+}
